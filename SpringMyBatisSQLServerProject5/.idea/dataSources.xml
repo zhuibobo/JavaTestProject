@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SpringMyBatisSQLServerProject5@localhost" uuid="579c57c1-a423-43b6-a38b-7a20fc318c45">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost;database=SpringMyBatisSQLServerProject5</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

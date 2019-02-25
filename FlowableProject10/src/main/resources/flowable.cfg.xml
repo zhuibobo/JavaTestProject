@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 流程引擎配置的bean -->
+	<bean id="processEngineConfiguration"
+		class="org.flowable.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+		<property name="jdbcUrl" value="jdbc:sqlserver://localhost:1433; DatabaseName=FlowableProject10" />
+		<property name="jdbcDriver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+		<property name="jdbcUsername" value="sa" />
+		<property name="jdbcPassword" value="sql" />
+		<!--<property name="databaseSchemaUpdate" value="drop-create" />-->
+		<!--<property name="databaseSchemaUpdate" value="true" />-->
+		<property name="databaseSchemaUpdate" value="drop-create" />
+		<property name="activityFontName" value="宋体"/>
+		<property name="labelFontName" value="宋体"/>
+		<property name="annotationFontName" value="宋体"/>
+	</bean>
+</beans>

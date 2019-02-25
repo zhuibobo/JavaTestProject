@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="springMyBatisSQLServerProject5.dao.PersonFieldToPropertyMapper">
+  <resultMap id="BaseResultMap" type="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="sex" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="age" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="idcard" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="brithday" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, sex, age, idcard, brithday
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property (id, name, sex, 
+      age, idcard, brithday
+      )
+    values (#{person_id,jdbcType=INTEGER}, #{person_name,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{idcard,jdbcType=VARCHAR}, #{brithday,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        id,
+      </if>
+      <if test="person_name != null">
+        name,
+      </if>
+      <if test="sex != null">
+        sex,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="idcard != null">
+        idcard,
+      </if>
+      <if test="brithday != null">
+        brithday,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        #{person_id,jdbcType=INTEGER},
+      </if>
+      <if test="person_name != null">
+        #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    <set>
+      <if test="person_name != null">
+        name = #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        brithday = #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    set name = #{person_name,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      brithday = #{brithday,jdbcType=TIMESTAMP}
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="sex" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="age" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="idcard" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="brithday" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, sex, age, idcard, brithday
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property (id, name, sex, 
+      age, idcard, brithday
+      )
+    values (#{person_id,jdbcType=INTEGER}, #{person_name,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{idcard,jdbcType=VARCHAR}, #{brithday,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        id,
+      </if>
+      <if test="person_name != null">
+        name,
+      </if>
+      <if test="sex != null">
+        sex,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="idcard != null">
+        idcard,
+      </if>
+      <if test="brithday != null">
+        brithday,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        #{person_id,jdbcType=INTEGER},
+      </if>
+      <if test="person_name != null">
+        #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    <set>
+      <if test="person_name != null">
+        name = #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        brithday = #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    set name = #{person_name,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      brithday = #{brithday,jdbcType=TIMESTAMP}
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="sex" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="age" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="idcard" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="brithday" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, sex, age, idcard, brithday
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property (id, name, sex, 
+      age, idcard, brithday
+      )
+    values (#{person_id,jdbcType=INTEGER}, #{person_name,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{idcard,jdbcType=VARCHAR}, #{brithday,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        id,
+      </if>
+      <if test="person_name != null">
+        name,
+      </if>
+      <if test="sex != null">
+        sex,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="idcard != null">
+        idcard,
+      </if>
+      <if test="brithday != null">
+        brithday,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        #{person_id,jdbcType=INTEGER},
+      </if>
+      <if test="person_name != null">
+        #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    <set>
+      <if test="person_name != null">
+        name = #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        brithday = #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    set name = #{person_name,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      brithday = #{brithday,jdbcType=TIMESTAMP}
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="sex" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="age" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="idcard" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="brithday" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, sex, age, idcard, brithday
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from person_field_to_property
+    where id = #{person_id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property (id, name, sex, 
+      age, idcard, brithday
+      )
+    values (#{person_id,jdbcType=INTEGER}, #{person_name,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
+      #{age,jdbcType=INTEGER}, #{idcard,jdbcType=VARCHAR}, #{brithday,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    insert into person_field_to_property
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        id,
+      </if>
+      <if test="person_name != null">
+        name,
+      </if>
+      <if test="sex != null">
+        sex,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="idcard != null">
+        idcard,
+      </if>
+      <if test="brithday != null">
+        brithday,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="person_id != null">
+        #{person_id,jdbcType=INTEGER},
+      </if>
+      <if test="person_name != null">
+        #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    <set>
+      <if test="person_name != null">
+        name = #{person_name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="idcard != null">
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="brithday != null">
+        brithday = #{brithday,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="springMyBatisSQLServerProject5.pojo.PersonFieldToProperty">
+    update person_field_to_property
+    set name = #{person_name,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=VARCHAR},
+      age = #{age,jdbcType=INTEGER},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      brithday = #{brithday,jdbcType=TIMESTAMP}
+    where id = #{person_id,jdbcType=INTEGER}
+  </update>
+</mapper>

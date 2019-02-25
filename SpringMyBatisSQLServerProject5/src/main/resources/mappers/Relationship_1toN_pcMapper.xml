@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="springMyBatisSQLServerProject5.dao.Relationship_1toN_pcMapper">
+  <resultMap id="BaseResultMap" type="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from relationship_1toN_pc
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from relationship_1toN_pc
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    insert into relationship_1toN_pc (id, name)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    insert into relationship_1toN_pc
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    update relationship_1toN_pc
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    update relationship_1toN_pc
+    set name = #{name,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <insert id="insert2table" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    insert into relationship_1toN_pc (id, name)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR})
+    <foreach collection="cpus" item="cpu" separator=";">
+      insert into relationship_1toN_cpu(id,name,pc_id) VALUES
+      (#{cpu.id},#{cpu.name},#{id})
+    </foreach>
+  </insert>
+
+  <delete id="delete2table" parameterType="java.lang.Integer">
+    delete from relationship_1toN_pc
+    where id = #{id,jdbcType=INTEGER}
+    delete from relationship_1toN_cpu where pc_id= #{id,jdbcType=INTEGER}
+  </delete>
+  <!--
+  方式一：嵌套结果：使用嵌套结果映射来处理重复的联合结果的子集
+  封装联表查询的数据(去除重复的数据)
+  -->
+  <resultMap id="select2table001mapping" type="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    <constructor>
+      <idArg column="pc_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="pc_name" javaType="java.lang.String" jdbcType="VARCHAR" />
+    </constructor>
+    <collection property="cpus" ofType="springMyBatisSQLServerProject5.pojo.Relationship_1toN_cpu">
+      <id property="id" column="cpu_id"/>
+      <result property="name" column="cpu_name"/>
+      <result property="pcId" column="pc_id"/>
+    </collection>
+  </resultMap>
+  <select id="select2table001" parameterType="java.lang.Integer" resultMap="select2table001mapping">
+    select pc.id pc_id,pc.name pc_name,cpu.id cpu_id,cpu.name cpu_name from relationship_1toN_pc pc join relationship_1toN_cpu cpu ON pc.id=cpu.pc_id
+    where pc.id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <!--
+  方式二：嵌套查询：通过执行另外一个SQL映射语句来返回预期的复杂类型
+  -->
+  <select id="select2table002" parameterType="java.lang.Integer" resultMap="select2table002mapping">
+    select * from relationship_1toN_pc where id=#{id}
+  </select>
+  <!-- 使用resultMap映射实体类和字段之间的一一对应关系 -->
+  <resultMap id="select2table002mapping" type="springMyBatisSQLServerProject5.pojo.Relationship_1toN_pc">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+    </constructor>
+    <collection property="cpus" ofType="springMyBatisSQLServerProject5.pojo.Relationship_1toN_cpu" column="id" select="select2table002_1">
+    </collection>
+  </resultMap>
+  <resultMap id="select2table002mapping_1" type="springMyBatisSQLServerProject5.pojo.Relationship_1toN_cpu">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="pc_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+    </constructor>
+  </resultMap>
+  <select id="select2table002_1" parameterType="int" resultMap="select2table002mapping_1">
+    SELECT * FROM relationship_1toN_cpu WHERE pc_id=#{pc_id}
+  </select>
+</mapper>

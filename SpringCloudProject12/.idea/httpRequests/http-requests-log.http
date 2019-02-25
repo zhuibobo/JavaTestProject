@@ -1,0 +1,26 @@
+GET http://localhost:9192/Server1/actuator/beans
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2019-02-20T110124.200.json
+
+###
+
+GET http://localhost:9192/Server1/actuator/info
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2019-02-20T105251.200.json
+
+###
+
+GET http://localhost:9192/Server1/actuator/health/{component}
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+###
+
+GET http://localhost:9192/Server1/actuator/health
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2019-02-20T105110.200.json
+
+###
+

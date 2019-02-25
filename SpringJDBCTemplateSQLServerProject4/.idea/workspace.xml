@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="f9a73ea1-4724-4485-8516-bdfcdba85c08" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonRowMapper.java" afterPath="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonRowMapper.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SpringJDBCTemplateProject4@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpringJDBCTemplateSQLServerProject4" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DIConfig003.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/DIConfig003.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnAndSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/ConnAndSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <marker date="1514275891193" expanded="true" signature="1853:1866" ph="DELETE perso... " />
+                <marker date="1514275891193" expanded="true" signature="1899:2003" ph="INSERT INTO person... " />
+                <marker date="1514275891193" expanded="true" signature="2063:2098" ph="select * fro... person" />
+                <marker date="1514275891193" expanded="true" signature="4142:4155" ph="DELETE perso... " />
+                <marker date="1514275891193" expanded="true" signature="4239:4346" ph="INSERT INTO person... " />
+                <marker date="1514275891193" expanded="true" signature="4526:4546" ph="select * fro... person" />
+                <marker date="1514275891193" expanded="true" signature="5979:5992" ph="DELETE perso... " />
+                <marker date="1514275891193" expanded="true" signature="6068:6183" ph="INSERT INTO person... " />
+                <marker date="1514275891193" expanded="true" signature="6347:6367" ph="select * fro... person" />
+                <marker date="1514275891193" expanded="true" signature="7633:7646" ph="DELETE perso... " />
+                <marker date="1514275891193" expanded="true" signature="7722:7853" ph="INSERT INTO person... " />
+                <marker date="1514275891193" expanded="true" signature="8017:8037" ph="select * fro... person" />
+                <marker date="1514275891193" expanded="true" signature="9351:9364" ph="DELETE perso... " />
+                <marker date="1514275891193" expanded="true" signature="9440:9585" ph="INSERT INTO person... " />
+                <marker date="1514275891193" expanded="true" signature="9749:9769" ph="select * fro... person" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnAndInsertTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate001Conn/ConnAndInsertTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateQueryListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateQueryListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateQueryList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQueryList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="72" />
+              <folding>
+                <marker date="1514422498819" expanded="true" signature="418:438" ph="select * fro... person" />
+                <marker date="1514422498819" expanded="true" signature="912:933" ph="select id fr... person" />
+                <marker date="1514422498819" expanded="true" signature="1414:1446" ph="select id fr... person" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateQuery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="78" />
+              <folding>
+                <marker date="1516177888069" expanded="true" signature="574:587" ph="DELETE perso... " />
+                <marker date="1516177888069" expanded="true" signature="619:690" ph="INSERT INTO person... " />
+                <marker date="1516177888069" expanded="true" signature="1624:1644" ph="select * fro... person" />
+                <marker date="1516177888069" expanded="true" signature="2412:2443" ph="select * fro... person" />
+                <marker date="1516177888069" expanded="true" signature="3010:3041" ph="select * fro... person" />
+                <marker date="1516177888069" expanded="true" signature="3759:3790" ph="select * fro... person" />
+                <marker date="1516177888069" expanded="true" signature="4342:4362" ph="select * fro... person" />
+                <marker date="1516177888069" expanded="true" signature="5391:5422" ph="select * fro... person" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonRowMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonRowMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultSet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/ResultSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3106">
+              <caret line="866" column="21" lean-forward="false" selection-start-line="866" selection-start-column="4" selection-end-line="866" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>KeyHolder</find>
+      <find>InsertPersonParams</find>
+      <find>InsertPersonByExecuteString</find>
+      <find>getConnection</find>
+      <find>inner</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b50d80d3-adbe-41d7-8df3-e56f00ec3af5/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate001Conn/ConnAndSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate001Conn/ConnAndSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate001Conn/ConnAndInsert.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b50d80d3-adbe-41d7-8df3-e56f00ec3af5/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate001Conn/ConnAndInsertTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate001DataSource/ConnAndInsertTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate001DataSource/ConnAndInsert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate001DataSource/DIConfig002.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/ConnAndInsertTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/ConnAndInsert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/ConnAndInsert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/PersonBrithday.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/MYField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/PersonAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate002DataSource/ConnAndSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateInsertTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateInsert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateQueryListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQueryList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateQueryMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQueryMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateQueryObjectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQueryObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonNewC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonRowMapperNewC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateProcedure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/ConnAndSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQuery.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateProcedureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/DIConfig003.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate004PoolCommDBCP/DIConfig004.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate005PoolC3P0/DIConfig005.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateConnTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate004PoolCommDBCP/PoolConnTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Base/ListSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate005PoolC3P0/PoolConnTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate005PoolProxool/DIConfig006.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate005PoolProxool/PoolConnTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringJDBCTemplate004PoolDBCP/PoolConnTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql/db.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonRowMapper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringJDBCTemplate001Conn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringJDBCTemplate002DataSource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringJDBCTemplate003TemplateV001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringJDBCTemplate001Conn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringJDBCTemplate002DataSource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringJDBCTemplateSQLServerProject4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringJDBCTemplateSQLServerProject4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringJDBCTemplate003TemplateV001" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15133277" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="SpringJDBCTemplate003TemplateV001" />
+      <recent name="SpringJDBCTemplate002DataSource" />
+      <recent name="SpringJDBCTemplate001DataSource" />
+      <recent name="SpringJDBCTemplate001Conn" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SpringJDBCTemplate005PoolProxool" />
+      <recent name="SpringJDBCTemplate005PoolC3P0" />
+      <recent name="SpringJDBCTemplate004PoolCommDBCP" />
+      <recent name="SpringJDBCTemplate003TemplateV001" />
+      <recent name="SpringJDBCTemplate001DataSource" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\JavaTestProject\trunk\SpringJDBCTemplateProject4\src\main\java\SpringJDBCTemplate003TemplateV001" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ConnAndInsertTest.InsertPersonNormal10000">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="ConnAndInsertTest.InsertPersonNormal100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBCTemplate001Conn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringJDBCTemplateSQLServerProject4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SpringJDBCTemplate001Conn" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBCTemplate001Conn.ConnAndInsertTest" />
+      <option name="METHOD_NAME" value="InsertPersonNormal100" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ConnAndInsertTest.InsertPersonNormal1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBCTemplate001Conn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringJDBCTemplateSQLServerProject4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SpringJDBCTemplate001Conn" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBCTemplate001Conn.ConnAndInsertTest" />
+      <option name="METHOD_NAME" value="InsertPersonNormal1000" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ConnAndInsertTest.InsertPersonNormal10000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBCTemplate001Conn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringJDBCTemplateSQLServerProject4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SpringJDBCTemplate001Conn" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBCTemplate001Conn.ConnAndInsertTest" />
+      <option name="METHOD_NAME" value="InsertPersonNormal10000" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PoolConnTest.conn100 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBCTemplate005PoolC3P0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringJDBCTemplateProject4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SpringJDBCTemplate005PoolC3P0" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBCTemplate005PoolC3P0.PoolConnTest" />
+      <option name="METHOD_NAME" value="conn100" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PoolConnTest.conn100 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SpringJDBCTemplate005PoolProxool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringJDBCTemplateProject4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="SpringJDBCTemplate005PoolProxool" />
+      <option name="MAIN_CLASS_NAME" value="SpringJDBCTemplate005PoolProxool.PoolConnTest" />
+      <option name="METHOD_NAME" value="conn100" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestALL" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SpringJDBCTemplateProject4" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringJDBCTemplateProject4" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestALL" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PoolConnTest.conn100 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PoolConnTest.conn100 (2)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConnAndInsertTest.InsertPersonNormal100" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ConnAndInsertTest.InsertPersonNormal1000" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ConnAndInsertTest.InsertPersonNormal10000" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConnAndInsertTest.InsertPersonNormal10000" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConnAndInsertTest.InsertPersonNormal1000" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ConnAndInsertTest.InsertPersonNormal100" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PoolConnTest.conn100 (2)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PoolConnTest.conn100 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\bobo-sss\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\JavaProject\JavaTestProject\trunk\SpringJDBCTemplateSQLServerProject4" />
+          <option name="myCopyRoot" value="D:\JavaProject\JavaTestProject\trunk\SpringJDBCTemplateSQLServerProject4" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\JavaProject\JavaTestProject\trunk\SpringJDBCTemplateSQLServerProject4\.idea" />
+          <option name="myCopyRoot" value="D:\JavaProject\JavaTestProject\trunk\SpringJDBCTemplateSQLServerProject4\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\JavaProject\JavaTestProject\trunk\SpringJDBCTemplateSQLServerProject4" />
+          <option name="myCopyRoot" value="D:\JavaProject\JavaTestProject\trunk\SpringJDBCTemplateSQLServerProject4" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9a73ea1-4724-4485-8516-bdfcdba85c08" name="Default" comment="" />
+      <created>1513779409225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513779409225</updated>
+      <workItem from="1513779412264" duration="9735000" />
+      <workItem from="1513859338521" duration="899000" />
+      <workItem from="1513860384404" duration="2966000" />
+      <workItem from="1514032423974" duration="5678000" />
+      <workItem from="1514275905845" duration="5409000" />
+      <workItem from="1514295168136" duration="4571000" />
+      <workItem from="1514381113369" duration="3812000" />
+      <workItem from="1516173362994" duration="9576000" />
+      <workItem from="1516239358271" duration="5259000" />
+      <workItem from="1516246290612" duration="267000" />
+      <workItem from="1516246654968" duration="59000" />
+      <workItem from="1516246896855" duration="279000" />
+      <workItem from="1516247268687" duration="5667000" />
+      <workItem from="1516324406736" duration="75000" />
+      <workItem from="1517879801395" duration="6971000" />
+      <workItem from="1521269701052" duration="1906000" />
+      <workItem from="1521447264285" duration="599000" />
+      <workItem from="1522733802420" duration="2657000" />
+      <workItem from="1533606183968" duration="146000" />
+      <workItem from="1533712159910" duration="4506000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1513910601676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513910601676</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1513924398185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513924398185</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1513925629779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513925629779</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1513926481721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513926481721</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1513926643280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513926643280</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1513927029089</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513927029089</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1513927073821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1513927073821</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1513933390944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513933390944</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1513933464719</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1513933464719</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1513933624798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513933624798</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1514032843378</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1514032843378</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1514297453958</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1514297453959</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1514297480789</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514297480789</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1514299693930</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1514299693930</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1514385015892</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1514385015892</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1514432140384</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1514432140384</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1514440236794</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1514440236794</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1514446213928</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1514446213928</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1514448780598</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1514448780598</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1516183346258</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516183346258</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1516239498719</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1516239498719</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1516241015236</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1516241015236</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1516241043682</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1516241043682</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1516241125827</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1516241125827</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1516242144468</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1516242144468</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1516243826968</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1516243826968</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1516244274201</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1516244274201</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1516247152129</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1516247152130</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConnAndInsertTest_InsertPersonNormal1000 - 2018.02.07 at 14h 41m 25s.xml">
+      <configuration name="ConnAndInsertTest.InsertPersonNormal1000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConnAndInsertTest_InsertPersonNormal1000 - 2018.02.07 at 14h 41m 29s.xml">
+      <configuration name="ConnAndInsertTest.InsertPersonNormal1000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConnAndInsertTest_InsertPersonNormal10000 - 2018.02.07 at 14h 41m 36s.xml">
+      <configuration name="ConnAndInsertTest.InsertPersonNormal10000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConnAndInsertTest_InsertPersonNormal10000 - 2018.02.07 at 14h 41m 43s.xml">
+      <configuration name="ConnAndInsertTest.InsertPersonNormal10000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolConnTest_conn100_(1) - 2018.01.18 at 09h 55m 14s.xml">
+      <configuration name="PoolConnTest.conn100 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolConnTest_conn100_(1) - 2018.01.18 at 10h 02m 12s.xml">
+      <configuration name="PoolConnTest.conn100 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolConnTest_conn100_(1) - 2018.01.18 at 10h 02m 59s.xml">
+      <configuration name="PoolConnTest.conn100 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolConnTest_conn100_(1) - 2018.01.18 at 10h 23m 53s.xml">
+      <configuration name="PoolConnTest.conn100 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolConnTest_conn100_(2) - 2018.01.18 at 10h 35m 17s.xml">
+      <configuration name="PoolConnTest.conn100 (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoolConnTest_conn100_(2) - 2018.01.18 at 10h 50m 09s.xml">
+      <configuration name="PoolConnTest.conn100 (2)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="104340000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08955224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23187633" sideWeight="0.49565217" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12153518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2947761" sideWeight="0.5043478" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12153518" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3011727" sideWeight="0.49565217" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2947761" sideWeight="0.5043478" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="33" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>((SQLServerConnection) ((NewProxyConnection) c3p0connection1).inner).clientConnectionId</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.mchange.v2.c3p0.impl.NewProxyConnection,com.microsoft.sqlserver.jdbc.SQLServerConnection</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c3p0connection1.getClientInfo()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c3p0connection1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i/2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>personList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resultSet.getInt(&quot;id&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cs.getResultSet()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cs</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rs</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonRowMapperNewC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="15" column="116" lean-forward="false" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar!/org/springframework/jdbc/support/JdbcAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="600" column="73" lean-forward="true" selection-start-line="600" selection-start-column="73" selection-end-line="600" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/BeansException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="1543" column="41" lean-forward="false" selection-start-line="1543" selection-start-column="41" selection-end-line="1543" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/BasicDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="479" column="34" lean-forward="false" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/AbstractComboPooledDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="69" lean-forward="false" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/NewProxyConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21570">
+          <caret line="250" column="62" lean-forward="false" selection-start-line="250" selection-start-column="57" selection-end-line="250" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Base/ListSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate005PoolC3P0/PoolConnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/cloudhopper/proxool/proxool/0.9.1/proxool-0.9.1.jar!/org/logicalcobwebs/proxool/ProxoolDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6534">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate005PoolProxool/PoolConnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate004PoolDBCP/PoolConnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateProcedureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate001Conn/ConnAndInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="6" column="92" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/ConnAndInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateProcedure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="74" column="49" lean-forward="false" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Base/CalculateRunTimeDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Base/ICalculateRunTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateConnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateInsertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate004PoolDBCP/DIConfig004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="80" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate005PoolC3P0/DIConfig005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate005PoolProxool/DIConfig006.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonNewC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#139#140#0" expanded="false" />
+            <element signature="e#166#167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQueryObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="39" column="48" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="39" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQueryMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <marker date="1514422498823" expanded="true" signature="492:523" ph="select * fro... person" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/DIConfig002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate002DataSource/ConnAndInsertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/PersonRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3106">
+          <caret line="866" column="21" lean-forward="false" selection-start-line="866" selection-start-column="4" selection-end-line="866" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate002DataSource/ConnAndSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <marker date="1514275891193" expanded="true" signature="1853:1866" ph="DELETE perso... " />
+            <marker date="1514275891193" expanded="true" signature="1899:2003" ph="INSERT INTO person... " />
+            <marker date="1514275891193" expanded="true" signature="2063:2098" ph="select * fro... person" />
+            <marker date="1514275891193" expanded="true" signature="4142:4155" ph="DELETE perso... " />
+            <marker date="1514275891193" expanded="true" signature="4239:4346" ph="INSERT INTO person... " />
+            <marker date="1514275891193" expanded="true" signature="4526:4546" ph="select * fro... person" />
+            <marker date="1514275891193" expanded="true" signature="5979:5992" ph="DELETE perso... " />
+            <marker date="1514275891193" expanded="true" signature="6068:6183" ph="INSERT INTO person... " />
+            <marker date="1514275891193" expanded="true" signature="6347:6367" ph="select * fro... person" />
+            <marker date="1514275891193" expanded="true" signature="7633:7646" ph="DELETE perso... " />
+            <marker date="1514275891193" expanded="true" signature="7722:7853" ph="INSERT INTO person... " />
+            <marker date="1514275891193" expanded="true" signature="8017:8037" ph="select * fro... person" />
+            <marker date="1514275891193" expanded="true" signature="9351:9364" ph="DELETE perso... " />
+            <marker date="1514275891193" expanded="true" signature="9440:9585" ph="INSERT INTO person... " />
+            <marker date="1514275891193" expanded="true" signature="9749:9769" ph="select * fro... person" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate001Conn/ConnAndInsertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="78" />
+          <folding>
+            <marker date="1516177888069" expanded="true" signature="574:587" ph="DELETE perso... " />
+            <marker date="1516177888069" expanded="true" signature="619:690" ph="INSERT INTO person... " />
+            <marker date="1516177888069" expanded="true" signature="1624:1644" ph="select * fro... person" />
+            <marker date="1516177888069" expanded="true" signature="2412:2443" ph="select * fro... person" />
+            <marker date="1516177888069" expanded="true" signature="3010:3041" ph="select * fro... person" />
+            <marker date="1516177888069" expanded="true" signature="3759:3790" ph="select * fro... person" />
+            <marker date="1516177888069" expanded="true" signature="4342:4362" ph="select * fro... person" />
+            <marker date="1516177888069" expanded="true" signature="5391:5422" ph="select * fro... person" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar!/org/springframework/jdbc/core/JdbcOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/TemplateQueryList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="72" />
+          <folding>
+            <marker date="1514422498819" expanded="true" signature="418:438" ph="select * fro... person" />
+            <marker date="1514422498819" expanded="true" signature="912:933" ph="select id fr... person" />
+            <marker date="1514422498819" expanded="true" signature="1414:1446" ph="select id fr... person" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringJDBCTemplate003TemplateV001/DIConfig003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1089" column="17" lean-forward="false" selection-start-line="1089" selection-start-column="17" selection-end-line="1089" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringJDBCTemplate003TemplateV001/TemplateQueryListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|SpringJDBCTemplateSQLServerProject4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.microsoft.sqlserver:sqljdbc4:4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

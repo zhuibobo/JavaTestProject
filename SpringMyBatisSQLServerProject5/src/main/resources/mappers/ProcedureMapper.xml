@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="springMyBatisSQLServerProject5.dao.ProcedureMapper">
+    <insert id="insertRecord" parameterMap="parameterMap001" statementType="CALLABLE">
+        exec sp_insert_relationship_1to1_pc #{id},#{name},#{cpuid}
+    </insert>
+    <parameterMap type="java.util.Map" id="parameterMap001">
+        <parameter property="id" mode="IN" jdbcType="INTEGER"/>
+        <parameter property="name" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="cpuid" mode="IN" jdbcType="VARCHAR"/>
+    </parameterMap>
+
+    <!--单个结果集-->
+    <select id="sp_insert_relationship_1to1_pc_out_param_1" parameterMap="parameterMap002" statementType="CALLABLE" resultMap="resultNextSeqMap">
+        <![CDATA[
+      EXEC sp_insert_relationship_1to1_pc_out_param #{id},#{name},#{cpuid},#{outname}
+      ]]>
+    </select>
+    <parameterMap type="java.util.Map" id="parameterMap002">
+        <parameter property="id" mode="IN" jdbcType="INTEGER"/>
+        <parameter property="name" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="cpuid" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="outname" mode="OUT" jdbcType="VARCHAR"/>
+    </parameterMap>
+    <resultMap type="java.util.Map" id="resultNextSeqMap">
+        <result column="outname_1" property="outname" javaType="String" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--多个结果集-->
+    <select id="sp_insert_relationship_1to1_pc_out_param_2" parameterMap="parameterMap002" statementType="CALLABLE" resultMap="resultNextSeqList1,resultNextSeqList2">
+        <![CDATA[
+      EXEC sp_insert_relationship_1to1_pc_out_param #{id},#{name},#{cpuid},#{outname}
+      ]]>
+    </select>
+    <resultMap type="java.util.Map" id="resultNextSeqList1">
+    </resultMap>
+    <resultMap type="java.util.Map" id="resultNextSeqList2">
+    </resultMap>
+</mapper>
