@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6694cea8-9066-45d7-9b22-26944a2c9376" name="Default Changelist" comment="zhuibobo">
+    <list default="true" id="6694cea8-9066-45d7-9b22-26944a2c9376" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +13,7 @@
     <ignored path="$PROJECT_DIR$/SpringCloudProject12-Eureka-Producer1/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloudProject12-Config-Server/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudProject12-Config-Client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -168,30 +182,25 @@
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="ConfigGit" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -199,11 +208,22 @@
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Config_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12_Config_Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
@@ -211,7 +231,6 @@
               <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,7 +426,7 @@
       <workItem from="1558661101866" duration="2941000" />
       <workItem from="1558664077429" duration="1128000" />
       <workItem from="1558665241266" duration="8280000" />
-      <workItem from="1558682834216" duration="3451000" />
+      <workItem from="1558682834216" duration="5176000" />
     </task>
     <task id="LOCAL-00001" summary="zhuibobo">
       <created>1558662061355</created>
@@ -458,17 +477,37 @@
       <option name="project" value="LOCAL" />
       <updated>1558685431667</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="zhuibobo">
+      <created>1558688288744</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558688288744</updated>
+    </task>
+    <task id="LOCAL-00009" summary="zhuibobo">
+      <created>1558688551624</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558688551624</updated>
+    </task>
+    <task id="LOCAL-00010" summary="zhuibobo">
+      <created>1558688573143</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558688573143</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27415000" />
+    <option name="totallyTimeSpent" value="29140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,7 +530,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -741,7 +780,17 @@
     <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
