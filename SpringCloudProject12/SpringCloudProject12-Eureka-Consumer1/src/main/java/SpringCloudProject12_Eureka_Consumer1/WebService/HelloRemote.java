@@ -1,11 +1,13 @@
 package SpringCloudProject12_Eureka_Consumer1.WebService;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.context.annotation.Primary;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name= "spring-cloud-producer1")
+@Primary
+@FeignClient(name= "spring-cloud-producer1",fallback = HelloRemoteHystrix.class)
 public interface HelloRemote {
     @RequestMapping(value = "/Producer1/hello")
-    public String hello(@RequestParam(value = "name") String name);
+    String hello(@RequestParam(value = "name") String name);
 }
