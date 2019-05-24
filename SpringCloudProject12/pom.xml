@@ -13,8 +13,24 @@
         <module>SpringCloudProject12-Eureka-Server</module>
         <module>SpringCloudProject12-Eureka-Producer1</module>
         <module>SpringCloudProject12-Eureka-Consumer1</module>
+        <module>SpringCloudProject12-Config-Server</module>
     </modules>
-
+    <!-- 华为Maven镜像-->
+    <repositories>
+        <repository>
+            <id>huaweicloud</id>
+            <url>https://repo.huaweicloud.com/repository/maven/</url>
+            <!--<url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+        </repository>
+    </repositories>
     <dependencyManagement>
         <dependencies>
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
