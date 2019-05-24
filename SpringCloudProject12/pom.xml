@@ -14,6 +14,7 @@
         <module>SpringCloudProject12-Eureka-Producer1</module>
         <module>SpringCloudProject12-Eureka-Consumer1</module>
         <module>SpringCloudProject12-Config-Server</module>
+        <module>SpringCloudProject12-Config-Client</module>
     </modules>
     <!-- 华为Maven镜像-->
     <repositories>
