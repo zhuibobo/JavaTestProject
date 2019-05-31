@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 @RestController
 public class HelloController {
 
@@ -15,7 +17,8 @@ public class HelloController {
 
         PersonService baseOperation=new PersonService();
         SqlSessionFactory sqlSessionFactory=baseOperation.getSessionFactory();
-        Person person = getPerson(1);
+        int personId=(new Random()).nextInt(100000);
+        Person person = getPerson(personId);
         baseOperation.addPerson(sqlSessionFactory,person);
 
         Person person1=baseOperation.select(sqlSessionFactory,person.getId());

@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 
 @RestController
 public class ConsumerController {
@@ -26,11 +28,12 @@ public class ConsumerController {
     }
 
     private Relationship_1to1_pc insertNewPC(Relationship_1to1_Service relationship_1to1_service) {
+        int pcId=(new Random()).nextInt(100000);
         Relationship_1to1_pc relationship_1to1_pc=new Relationship_1to1_pc();
-        relationship_1to1_pc.setId(1);
+        relationship_1to1_pc.setId(pcId);
         relationship_1to1_pc.setName("我的电脑");
         Relationship_1to1_cpu relationship_1to1_cpu=new Relationship_1to1_cpu();
-        relationship_1to1_cpu.setId(1);
+        relationship_1to1_cpu.setId(pcId);
         relationship_1to1_cpu.setName("我的CPU");
         relationship_1to1_pc.setCpu(relationship_1to1_cpu);
         relationship_1to1_service.insert2table(relationship_1to1_service.getSessionFactory(),relationship_1to1_pc);
