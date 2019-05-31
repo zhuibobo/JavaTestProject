@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6694cea8-9066-45d7-9b22-26944a2c9376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/src/main/java/SpringCloudProject12_ZooKeeper_Java_API/HelloZooKeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/src/main/java/SpringCloudProject12_ZooKeeper_Java_API/Master.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMyBatisSQLServerProject5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMyBatisSQLServerProject5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -269,7 +265,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550646120757" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -452,13 +448,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Master" />
+      <item itemvalue="Application.HelloZooKeeper" />
       <item itemvalue="Spring Boot.SpringCloudProject12_Server1_Application" />
       <item itemvalue="Spring Boot.SpringCloudProject12_Eureka_Server" />
       <item itemvalue="Spring Boot.SpringCloudProject12_Eureka_Producer1" />
       <item itemvalue="Spring Boot.SpringCloudProject12_Eureka_Consumer1" />
       <item itemvalue="Spring Boot.SpringCloudProject12_Config_Server" />
-      <item itemvalue="Application.Master" />
-      <item itemvalue="Application.HelloZooKeeper" />
     </list>
     <recent_temporary>
       <list>
@@ -488,7 +484,7 @@
       <workItem from="1558682834216" duration="5187000" />
       <workItem from="1559006496734" duration="595000" />
       <workItem from="1559010122595" duration="8000" />
-      <workItem from="1559264634345" duration="10759000" />
+      <workItem from="1559264634345" duration="11508000" />
     </task>
     <task id="LOCAL-00001" summary="zhuibobo">
       <created>1558662061355</created>
@@ -595,11 +591,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559290505624</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="zhuibobo">
+      <created>1559292337926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559292337926</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40513000" />
+    <option name="totallyTimeSpent" value="41262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -615,7 +618,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5406284" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
