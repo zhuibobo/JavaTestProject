@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f5c69b0-531e-463f-952f-c53caa8d7019" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/resources/conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/resources/sql/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/resources/sql/db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringCloudProject12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudProject12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -630,7 +625,7 @@
       <workItem from="1521258863374" duration="696000" />
       <workItem from="1522717374116" duration="5744000" />
       <workItem from="1523957067390" duration="1012000" />
-      <workItem from="1559265782329" duration="6306000" />
+      <workItem from="1559265782329" duration="6847000" />
     </task>
     <task id="LOCAL-00001">
       <created>1516245918949</created>
@@ -773,7 +768,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92285000" />
+    <option name="totallyTimeSpent" value="92826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

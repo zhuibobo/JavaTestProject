@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6694cea8-9066-45d7-9b22-26944a2c9376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/resources/conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/resources/sql/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-Eureka-Producer1/src/main/resources/sql/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringMyBatisSQLServerProject5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMyBatisSQLServerProject5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,6 +18,7 @@
     <ignored path="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloudProject12-Config-Server/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloudProject12-Config-Client/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +34,28 @@
         <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/dao/Relationship_1to1_pcMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1258">
+              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -56,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="52" />
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,6 +138,7 @@
         <option value="$PROJECT_DIR$/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java" />
         <option value="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/resources/conf.xml" />
         <option value="$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/pom.xml" />
       </list>
     </option>
   </component>
@@ -183,165 +192,28 @@
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-ZooKeeper-Java-API" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-ZooKeeper-Java-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-ZooKeeper-Java-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-ZooKeeper-Java-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Eureka_Consumer1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Eureka_Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Eureka_Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Eureka_Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Eureka_Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="WebService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Eureka_Producer1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12_Eureka_Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudProject12-Eureka-Producer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -548,7 +420,7 @@
       <workItem from="1558682834216" duration="5187000" />
       <workItem from="1559006496734" duration="595000" />
       <workItem from="1559010122595" duration="8000" />
-      <workItem from="1559264634345" duration="7081000" />
+      <workItem from="1559264634345" duration="9123000" />
     </task>
     <task id="LOCAL-00001" summary="zhuibobo">
       <created>1558662061355</created>
@@ -641,15 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559274030084</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="zhuibobo">
+      <created>1559275139464</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559275139464</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36835000" />
+    <option name="totallyTimeSpent" value="38877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23027718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -674,7 +552,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -691,6 +569,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="zhuibobo" />
     <option name="LAST_COMMIT_MESSAGE" value="zhuibobo" />
   </component>
@@ -1051,14 +930,14 @@
     <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/dao/Relationship_1to1_pcMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="52" />
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1067,11 +946,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="433">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1013,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringCloudProject12-Config-Server</last-edited>
+          <last-edited>SpringCloudProject12-ZooKeeper-Java-API</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -15,6 +15,7 @@
         <module>SpringCloudProject12-Eureka-Consumer1</module>
         <module>SpringCloudProject12-Config-Server</module>
         <module>SpringCloudProject12-Config-Client</module>
+        <module>SpringCloudProject12-ZooKeeper-Java-API</module>
     </modules>
     <!-- 华为Maven镜像-->
     <repositories>
