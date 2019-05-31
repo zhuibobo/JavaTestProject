@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f5c69b0-531e-463f-952f-c53caa8d7019" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/dao/Relationship_1to1_cpuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/dao/Relationship_1to1_pcMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/pojo/Relationship_1to1_cpu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/pojo/Relationship_1to1_pc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/service/Relationship_1to1_Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/resources/mappers/Relationship_1to1_cpuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/resources/mappers/Relationship_1to1_pcMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/dao/PersonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/resources/conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/resources/mappers/PersonMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringCloudProject12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudProject12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Producer1/src/main/java/SpringCloudProject12_Eureka_Producer1/Controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/587a9a15-12d5-406d-a136-a7b001c564ad/storage_v2/_src_/database/SpringJDBCTemplateProject4.nd0g8w/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/587a9a15-12d5-406d-a136-a7b001c564ad/storage_v2/_src_/database/SpringJDBCTemplateProject4.nd0g8w/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloudProject12/SpringCloudProject12-Eureka-Consumer1/src/main/java/SpringCloudProject12_Eureka_Consumer1/Controller/ConsumerController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -627,7 +607,7 @@
       <workItem from="1521258863374" duration="696000" />
       <workItem from="1522717374116" duration="5744000" />
       <workItem from="1523957067390" duration="1012000" />
-      <workItem from="1559265782329" duration="4994000" />
+      <workItem from="1559265782329" duration="5424000" />
     </task>
     <task id="LOCAL-00001">
       <created>1516245918949</created>
@@ -770,7 +750,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90973000" />
+    <option name="totallyTimeSpent" value="91403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -783,6 +763,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" id="Project" order="0" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" weight="0.25" />

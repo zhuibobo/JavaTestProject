@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="springMyBatisSQLServerProject5.dao.Relationship_1to1_cpuMapper">
-  <resultMap id="BaseResultMap" type="springMyBatisSQLServerProject5.pojo.Relationship_1to1_cpu">
+<mapper namespace="SpringCloudProject12_Eureka_Consumer1.dao.Relationship_1to1_cpuMapper">
+  <resultMap id="BaseResultMap" type="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_cpu">
     <constructor>
       <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
       <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
@@ -20,11 +20,11 @@
     delete from relationship_1to1_cpu
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_cpu">
+  <insert id="insert" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_cpu">
     insert into relationship_1to1_cpu (id, name)
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_cpu">
+  <insert id="insertSelective" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_cpu">
     insert into relationship_1to1_cpu
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -43,7 +43,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_cpu">
+  <update id="updateByPrimaryKeySelective" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_cpu">
     update relationship_1to1_cpu
     <set>
       <if test="name != null">
@@ -52,7 +52,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_cpu">
+  <update id="updateByPrimaryKey" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_cpu">
     update relationship_1to1_cpu
     set name = #{name,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}

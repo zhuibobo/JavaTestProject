@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="springMyBatisSQLServerProject5.dao.Relationship_1to1_pcMapper">
-  <resultMap id="BaseResultMap" type="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+<mapper namespace="SpringCloudProject12_Eureka_Consumer1.dao.Relationship_1to1_pcMapper">
+  <resultMap id="BaseResultMap" type="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     <constructor>
       <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
       <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
@@ -21,13 +21,13 @@
     delete from relationship_1to1_pc
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <insert id="insert" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     insert into relationship_1to1_pc (id, name, cpu_id
     )
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{cpuId,jdbcType=VARCHAR}
     )
   </insert>
-  <insert id="insertSelective" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <insert id="insertSelective" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     insert into relationship_1to1_pc
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -52,7 +52,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <update id="updateByPrimaryKeySelective" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     update relationship_1to1_pc
     <set>
       <if test="name != null">
@@ -64,14 +64,14 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <update id="updateByPrimaryKey" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     update relationship_1to1_pc
     set name = #{name,jdbcType=VARCHAR},
       cpu_id = #{cpuId,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 
-  <insert id="insert2table" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <insert id="insert2table" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     insert into relationship_1to1_pc (id, name, cpu_id
     )
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{cpu.id,jdbcType=VARCHAR}
@@ -79,7 +79,7 @@
     insert into relationship_1to1_cpu(id,name) VALUES (#{cpu.id,jdbcType=INTEGER},#{cpu.name,jdbcType=VARCHAR})
   </insert>
 
-  <update id="update2table" parameterType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <update id="update2table" parameterType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     update relationship_1to1_pc
     set name = #{name,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
@@ -91,13 +91,13 @@
   方式一：嵌套结果：使用嵌套结果映射来处理重复的联合结果的子集
   封装联表查询的数据(去除重复的数据)
   -->
-  <resultMap id="select2table001mapping" type="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <resultMap id="select2table001mapping" type="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     <constructor>
       <idArg column="pc_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
       <arg column="pc_name" javaType="java.lang.String" jdbcType="VARCHAR" />
       <arg column="cpu_id" javaType="java.lang.String" jdbcType="VARCHAR" />
     </constructor>
-    <association property="cpu" javaType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_cpu">
+    <association property="cpu" javaType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_cpu">
       <constructor>
         <idArg column="cpu_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
         <arg column="cpu_name" javaType="java.lang.String" jdbcType="VARCHAR" />
@@ -116,7 +116,7 @@
     select * from relationship_1to1_pc where id=#{id}
   </select>
   <!-- 使用resultMap映射实体类和字段之间的一一对应关系 -->
-  <resultMap id="select2table002mapping" type="springMyBatisSQLServerProject5.pojo.Relationship_1to1_pc">
+  <resultMap id="select2table002mapping" type="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_pc">
     <constructor>
       <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
       <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
@@ -124,7 +124,7 @@
     </constructor>
     <association property="cpu" column="cpu_id" select="select2table002_1"/>
   </resultMap>
-  <select id="select2table002_1" parameterType="int" resultType="springMyBatisSQLServerProject5.pojo.Relationship_1to1_cpu">
+  <select id="select2table002_1" parameterType="int" resultType="SpringCloudProject12_Eureka_Consumer1.pojo.Relationship_1to1_cpu">
     SELECT * FROM relationship_1to1_cpu WHERE id=#{cpu_id}
   </select>
 </mapper>
