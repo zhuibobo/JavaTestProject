@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6694cea8-9066-45d7-9b22-26944a2c9376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/Controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-port.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigGit/neo-config-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigGit/neo-config-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigGit/neo-config-pro.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigGit/neo-config-pro.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigGit/neo-config-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigGit/neo-config-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,13 +35,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-port.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="40" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="40" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/Controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,93 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/Controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConfigGit/neo-config-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConfigGit/neo-config-pro.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ConfigGit/neo-config-test.properties">
+        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/java/SpringCloudProject12_Config_Server/SpringCloudProject12_Config_Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -216,15 +132,15 @@
         <option value="$PROJECT_DIR$/SpringCloudProject12-ZooKeeper-Java-API/src/main/java/SpringCloudProject12_ZooKeeper_Java_API/HelloZooKeeper.java" />
         <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/java/SpringCloudProject12_Config_Server/SpringCloudProject12_Config_Server.java" />
         <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Client/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/module-port.md" />
-        <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java" />
         <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/Controller/HelloController.java" />
         <option value="$PROJECT_DIR$/ConfigGit/neo-config-dev.properties" />
         <option value="$PROJECT_DIR$/ConfigGit/neo-config-pro.properties" />
         <option value="$PROJECT_DIR$/ConfigGit/neo-config-test.properties" />
+        <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -335,6 +251,21 @@
               <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudProject12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudProject12" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudProject12-Config-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -440,7 +371,7 @@
     </option>
     <option name="contentProportion" value="0.25487012" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudProject12_Config_Server">
+  <component name="RunManager" selected="Spring Boot.SpringCloudProject12_Config_Client">
     <configuration name="HelloZooKeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SpringCloudProject12_ZooKeeper_Java_API.HelloZooKeeper" />
       <module name="SpringCloudProject12-ZooKeeper-Java-API" />
@@ -465,6 +396,21 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProject12_Config_Client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloudProject12-Config-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringCloudProject12_Config_Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SpringCloudProject12_Config_Client.SpringCloudProject12_Config_Client" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:1216/ConfigClient/hello" />
       </method>
     </configuration>
     <configuration name="SpringCloudProject12_Config_Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -544,9 +490,11 @@
       <item itemvalue="Spring Boot.SpringCloudProject12_Eureka_Producer1" />
       <item itemvalue="Spring Boot.SpringCloudProject12_Eureka_Consumer1" />
       <item itemvalue="Spring Boot.SpringCloudProject12_Config_Server" />
+      <item itemvalue="Spring Boot.SpringCloudProject12_Config_Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringCloudProject12_Config_Client" />
         <item itemvalue="Spring Boot.SpringCloudProject12_Config_Server" />
         <item itemvalue="Application.HelloZooKeeper" />
         <item itemvalue="Application.Master" />
@@ -579,7 +527,7 @@
       <workItem from="1560847772200" duration="419000" />
       <workItem from="1560848214294" duration="857000" />
       <workItem from="1560849101126" duration="241000" />
-      <workItem from="1560849379711" duration="1530000" />
+      <workItem from="1560849379711" duration="1805000" />
     </task>
     <task id="LOCAL-00001" summary="zhuibobo">
       <created>1558662061355</created>
@@ -700,11 +648,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560849869774</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="zhuibobo">
+      <created>1560850922570</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560850922570</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45846000" />
+    <option name="totallyTimeSpent" value="46121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,7 +700,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.4989339" weight="0.45770064" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.4989339" visible="true" weight="0.45770064" />
       <window_info anchor="bottom" id="JRebel Console" order="18" weight="0.45878524" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1065,13 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Server1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1135,44 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/Controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConfigGit/neo-config-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1191,6 +1101,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/SpringCloudProject12_Config_Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/java/SpringCloudProject12_Config_Client/Controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudProject12-Config-Server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
