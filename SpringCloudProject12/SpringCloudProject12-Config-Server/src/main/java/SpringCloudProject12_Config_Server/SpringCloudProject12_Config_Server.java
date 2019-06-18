@@ -10,6 +10,7 @@ public class SpringCloudProject12_Config_Server {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudProject12_Config_Server.class, args);
+        System.out.println("start");
     }
 
 }
