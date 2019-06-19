@@ -18,6 +18,7 @@
         <module>SpringCloudProject12-ZooKeeper-Java-API</module>
         <module>SpringCloudProject12-Config-Server-Eureka</module>
         <module>SpringCloudProject12-Config-Client-Eureka</module>
+        <module>SpringCloudProject12-Zuul</module>
     </modules>
     <!-- 华为Maven镜像-->
     <repositories>
@@ -75,6 +76,12 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-openfeign</artifactId>
                 <version>2.1.1.RELEASE</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zuul</artifactId>
+                <version>1.4.6.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

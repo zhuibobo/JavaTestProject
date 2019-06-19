@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringCloudProject12-Server1" />
-        <module name="SpringCloudProject12-Config-Server-Eureka" />
+        <module name="SpringCloudProject12-Zuul" />
         <module name="SpringCloudProject12-Config-Client" />
         <module name="SpringCloudProject12-Eureka-Consumer1" />
         <module name="SpringCloudProject12-Eureka-Server" />
         <module name="SpringCloudProject12-Eureka-Producer1" />
-        <module name="SpringCloudProject12-Config-Server" />
+        <module name="SpringCloudProject12-Config-Server-Eureka" />
         <module name="SpringCloudProject12-Config-Client-Eureka" />
         <module name="SpringCloudProject12-ZooKeeper-Java-API" />
+        <module name="SpringCloudProject12-Config-Server" />
       </profile>
     </annotationProcessing>
   </component>
