@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/SpringCloudProject12-Eureka-Server/SpringCloudProject12-Eureka-Producer1/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudProject12-Zipkin-Server/pom.xml" />
       </set>
     </option>
   </component>

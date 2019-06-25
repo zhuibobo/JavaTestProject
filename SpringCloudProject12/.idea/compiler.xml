@@ -16,7 +16,11 @@
         <module name="SpringCloudProject12-Config-Client-Eureka" />
         <module name="SpringCloudProject12-ZooKeeper-Java-API" />
         <module name="SpringCloudProject12-Config-Server" />
+        <module name="SpringCloudProject12-Zipkin-Server1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringCloudProject12-Zipkin-Server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

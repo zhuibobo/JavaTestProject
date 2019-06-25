@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1212/EurekaServer/eureka/
+server:
+  port: 1221
+spring:
+  application:
+    name: spring-cloud-zipkin-server
+
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

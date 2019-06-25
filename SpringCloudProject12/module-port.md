@@ -6,3 +6,4 @@
 #SpringCloudProject12-Config-Server-Eureka:1217
 #SpringCloudProject12-Config-Client-Eureka:1218
 #SpringCloudProject12-Zuul:1220
+#SpringCloudProject12-Zipkin-Server1:1221
