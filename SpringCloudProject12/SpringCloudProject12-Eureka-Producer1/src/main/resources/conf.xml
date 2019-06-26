@@ -7,7 +7,7 @@
             <!-- 配置数据库连接信息 -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-                <property name="url" value="jdbc:sqlserver://localhost:8573;instanceName=SQL2016; DatabaseName=SpringCloudProject12_Eureka_Producer1" />
+                <property name="url" value="jdbc:sqlserver://localhost:1433; DatabaseName=SpringCloudProject12_Eureka_Producer1" />
                 <property name="username" value="sa" />
                 <property name="password" value="sql" />
             </dataSource>

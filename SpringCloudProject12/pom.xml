@@ -20,6 +20,7 @@
         <module>SpringCloudProject12-Config-Client-Eureka</module>
         <module>SpringCloudProject12-Zuul</module>
         <module>SpringCloudProject12-Zipkin-Server1</module>
+        <module>SpringCloudProject12-Eureka-Consumer-Sleuth1</module>
     </modules>
     <!-- 华为Maven镜像-->
     <repositories>
