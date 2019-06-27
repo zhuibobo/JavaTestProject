@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Primary
-@FeignClient(name= "spring-cloud-consumer1")
+@FeignClient(name= "spring-cloud-consumer1", configuration = FeignLogConfiguration.class)
 public interface ToProducer1HelloRemote {
     @RequestMapping(value = "/Consumer1/ToProducer1Hello")
     String hello(@RequestParam(value = "name") String name);
