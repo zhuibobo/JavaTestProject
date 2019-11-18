@@ -8,3 +8,4 @@
 #SpringCloudProject12-Zuul:1220
 #SpringCloudProject12-Zipkin-Server1:1221
 #SpringCloudProject12-Eureka-Consumer-Sleuth1:1222
+#SpringCloudProject12-Config-Server-Location:1223

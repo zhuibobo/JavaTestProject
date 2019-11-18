@@ -15,6 +15,7 @@
         <module name="SpringCloudProject12-Eureka-Producer1" />
         <module name="SpringCloudProject12-Config-Server-Eureka" />
         <module name="SpringCloudProject12-Config-Client-Eureka" />
+        <module name="SpringCloudProject12-Config-Server-Location" />
         <module name="SpringCloudProject12-ZooKeeper-Java-API" />
         <module name="SpringCloudProject12-Zipkin-Server1" />
         <module name="SpringCloudProject12-Eureka-Consumer-Sleuth1" />
