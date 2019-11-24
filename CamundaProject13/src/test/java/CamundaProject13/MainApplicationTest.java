@@ -22,6 +22,8 @@ public class MainApplicationTest {
     @Autowired
     private MainApplication application;
 
-
+    public void consolelog(Object object){
+        System.out.println("CamundaProject13-Consolelog:"+object);
+    }
 
 }
