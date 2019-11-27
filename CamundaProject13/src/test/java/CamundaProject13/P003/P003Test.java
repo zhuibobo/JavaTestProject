@@ -332,7 +332,7 @@ public class P003Test extends MainApplicationTest {
         Assert.assertEquals(null,processInstance);
     }
 
-    private ProcessInstanceQuery deleteAllProcessInstance(RuntimeService runtimeService) {
+    public static ProcessInstanceQuery deleteAllProcessInstance(RuntimeService runtimeService) {
         ProcessInstanceQuery processInstanceQuery = runtimeService.createProcessInstanceQuery();
         for (ProcessInstance processInstance : processInstanceQuery.list()) {
             runtimeService.deleteProcessInstance(processInstance.getId(),"unit-test");
