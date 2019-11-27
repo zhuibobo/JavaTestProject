@@ -1,0 +1,14 @@
+{
+  "name": "lorikeet",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "chapter-02": "node_modules\\electron\\dist\\electron.exe ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "async": "^3.1.0",
+    "electron": "^7.1.2",
+    "osenv": "^0.1.5"
+  }
+}
