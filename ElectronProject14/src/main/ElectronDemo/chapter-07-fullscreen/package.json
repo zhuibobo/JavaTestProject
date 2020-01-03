@@ -1,0 +1,11 @@
+{
+  "name": "fullscreen-app-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "chapter-07-fullscreen": "node_modules\\electron\\dist\\electron.exe ."
+  },
+  "devDependencies": {
+    "electron": "^1.4.14"
+  }
+}

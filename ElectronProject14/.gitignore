@@ -7,6 +7,7 @@ log
 t3plibs
 node_modules
 GenerateCodeFiles/
+dist/
 !GenerateCodeFiles/GenerateCodeFiles.txt
 
 ##############################

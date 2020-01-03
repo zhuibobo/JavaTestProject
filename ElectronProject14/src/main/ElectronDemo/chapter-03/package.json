@@ -2,14 +2,26 @@
   "name": "lorikeet",
   "version": "1.0.0",
   "main": "main.js",
+  "author": "Paul Jensen <paul@anephenix.com>",
+  "description": "A file explorer application",
   "scripts": {
-    "chapter-03": "node_modules\\electron\\dist\\electron.exe ."
+    "chapter-03": "node_modules\\electron\\dist\\electron.exe .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "lunr": "^2.3.8",
+  "build": {
+    "appId": "lorikeet1",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  },
+  "dependencies": {
     "async": "^3.1.0",
-    "electron": "^7.1.2",
+    "lunr": "^2.3.8",
     "osenv": "^0.1.5"
+  },
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-builder": "^21.2.0"
   }
 }
