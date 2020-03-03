@@ -27,10 +27,10 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <setting name="provider-name" value="" />
         <datasource-mapping>
           <factory-entry name="Entities" />
         </datasource-mapping>
+        <naming-strategy-map />
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/lib/Activiti疯狂讲义源码/codes/16/16.5/jpa-act-spring/bin/META-INF/persistence.xml" />
       </configuration>
     </facet>

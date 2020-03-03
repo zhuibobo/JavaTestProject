@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be2abee2-3063-4aa7-a76a-06fcecc308de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/fileSystem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/images/directory.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/images/file.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-04/userInterface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-07-fullscreen/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-07-fullscreen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-07-fullscreen/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-07-fullscreen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bpmn/P004_001_发文流程_解析XML模型用.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bpmn/P004_001_发文流程_解析XML模型用.bpmn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ElectronProject14/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ElectronProject14/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-03/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-03/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-03/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ElectronProject14/src/main/ElectronDemo/chapter-03/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,59 +19,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P004/P004Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CamundaProject13/CamundaUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="161" column="101" selection-start-line="161" selection-start-column="93" selection-end-line="161" selection-end-column="101" />
+            <state relative-caret-position="320">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#P004_001_bpmn#0;class#P004Test#0" />
-                <element signature="method#getNextTasks#0;class#P004Test#0" />
-                <element signature="method#getOutgoingTask#0;class#P004Test#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P001/P001Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/MainApplicationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CamundaProject13/MainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,49 +44,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P003/P003Test.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P004/P004Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="163" column="101" selection-start-line="163" selection-start-column="93" selection-end-line="163" selection-end-column="101" />
+            <state relative-caret-position="833">
+              <caret line="161" column="101" selection-start-line="161" selection-start-column="93" selection-end-line="161" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#P003_002_bpmn#0;class#P003Test#0" />
-                <element signature="method#P003_004_bpmn#0;class#P003Test#0" />
+                <element signature="method#P004_001_bpmn#0;class#P004Test#0" />
+                <element signature="method#getNextTasks#0;class#P004Test#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/bpmn/parser/BpmnParseLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CamundaProject13/CamundaUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-              <folding>
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/bpmn/parser/BpmnParse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3320">
-              <caret line="241" selection-start-line="241" selection-end-line="241" />
             </state>
           </provider>
         </entry>
@@ -181,7 +88,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/CamundaProject13/P001/P001Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/CamundaProject13/SimpleApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CamundaProject13/P001/MyCustomConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/CamundaProject13/P001/P001SimpleApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/CamundaProject13/P002/P002SimpleApplication.java" />
@@ -194,10 +100,11 @@
         <option value="$PROJECT_DIR$/src/test/java/CamundaProject13/P002/P001Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/CamundaProject13/P002/P002Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/CamundaProject13/MainApplicationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CamundaProject13/P003/P003Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/CamundaProject13/P004/P004Test.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -237,9 +144,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
+    <option name="x" value="-433" />
+    <option name="y" value="2" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -249,8 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,100 +164,12 @@
               <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
               <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="P001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="P002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="P003" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CamundaProject13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CamundaProject13" type="462c0819:PsiDirectoryNode" />
-              <item name="P004" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +183,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jb4dc/jb4dc-sso-root" />
+    <property name="last_opened_file_path" value="Z:/MYWebAPP/code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -383,15 +200,15 @@
       <recent name="CamundaProject13" />
       <recent name="CamundaProject13.P001" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\JavaTestProject\CamundaProject13\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="CamundaProject13.P002" />
       <recent name="CamundaProject13" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaProject\JavaTestProject\CamundaProject13\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -406,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.P004Test.P004_003_bpmn">
+  <component name="RunManager" selected="JUnit.P003Test.P003_001_bpmn">
     <configuration name="P003Test.P003_001_bpmn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CamundaProject13" />
       <extension name="coverage">
@@ -489,10 +306,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P003Test.P003_001_bpmn" />
         <item itemvalue="JUnit.P004Test.P004_003_bpmn" />
         <item itemvalue="JUnit.P004Test.P004_002_bpmn" />
         <item itemvalue="JUnit.P004Test.P004_001_bpmn" />
-        <item itemvalue="JUnit.P003Test.P003_001_bpmn" />
         <item itemvalue="JUnit.P003Test.P003_004_bpmn" />
       </list>
     </recent_temporary>
@@ -520,7 +337,15 @@
       <workItem from="1574823564798" duration="226000" />
       <workItem from="1575722332567" duration="11000" />
       <workItem from="1576132594972" duration="639000" />
-      <workItem from="1578040193172" duration="1974000" />
+      <workItem from="1578040193172" duration="2596000" />
+      <workItem from="1578402497088" duration="626000" />
+      <workItem from="1578442040115" duration="626000" />
+      <workItem from="1578460342443" duration="3333000" />
+      <workItem from="1578572926772" duration="1747000" />
+      <workItem from="1578633208268" duration="726000" />
+      <workItem from="1578990179675" duration="1301000" />
+      <workItem from="1579781711713" duration="1762000" />
+      <workItem from="1580193921930" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="测试工程">
       <created>1574043482644</created>
@@ -571,43 +396,50 @@
       <option name="project" value="LOCAL" />
       <updated>1574823688151</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="测试工程">
+      <created>1578058686856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578058686856</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="P004Test_P004_002_bpmn - 2019.11.26 at 15h 01m 45s.xml">
-      <configuration name="P004Test.P004_002_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_002_bpmn - 2019.11.26 at 15h 28m 16s.xml">
-      <configuration name="P004Test.P004_002_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_002_bpmn - 2019.11.26 at 15h 30m 07s.xml">
-      <configuration name="P004Test.P004_002_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_002_bpmn - 2019.11.26 at 15h 31m 02s.xml">
-      <configuration name="P004Test.P004_002_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_002_bpmn - 2019.11.26 at 15h 31m 24s.xml">
-      <configuration name="P004Test.P004_002_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_002_bpmn - 2019.11.26 at 15h 37m 50s.xml">
-      <configuration name="P004Test.P004_002_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_002_bpmn - 2019.11.26 at 15h 43m 32s.xml">
-      <configuration name="P004Test.P004_002_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_003_bpmn - 2019.11.26 at 16h 58m 25s.xml">
-      <configuration name="P004Test.P004_003_bpmn" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P004Test_P004_003_bpmn - 2019.11.26 at 17h 00m 39s.xml">
-      <configuration name="P004Test.P004_003_bpmn" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="P004Test_P004_003_bpmn - 2019.11.26 at 17h 01m 52s.xml">
       <configuration name="P004Test.P004_003_bpmn" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="P004Test_P004_003_bpmn - 2020.01.23 at 20h 20m 27s.xml">
+      <configuration name="P004Test.P004_003_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P004Test_P004_003_bpmn - 2020.01.23 at 20h 21m 38s.xml">
+      <configuration name="P004Test.P004_003_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P004Test_P004_003_bpmn - 2020.01.23 at 20h 22m 16s.xml">
+      <configuration name="P004Test.P004_003_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P004Test_P004_003_bpmn - 2020.01.23 at 20h 23m 09s.xml">
+      <configuration name="P004Test.P004_003_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P003Test_P003_001_bpmn - 2020.01.23 at 20h 24m 33s.xml">
+      <configuration name="P003Test.P003_001_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P003Test_P003_001_bpmn - 2020.01.23 at 20h 25m 20s.xml">
+      <configuration name="P003Test.P003_001_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P003Test_P003_001_bpmn - 2020.01.23 at 20h 25m 35s.xml">
+      <configuration name="P003Test.P003_001_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P003Test_P003_001_bpmn - 2020.01.23 at 20h 25m 52s.xml">
+      <configuration name="P003Test.P003_001_bpmn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P003Test_P003_001_bpmn - 2020.01.23 at 20h 29m 48s.xml">
+      <configuration name="P003Test.P003_001_bpmn" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74576000" />
+    <option name="totallyTimeSpent" value="86259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,10 +451,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49566162" visible="true" weight="0.19753577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49566162" visible="true" weight="0.21025437" />
       <window_info id="Structure" order="1" sideWeight="0.5043384" side_tool="true" weight="0.18958664" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5021692" side_tool="true" weight="0.25596184" />
@@ -741,83 +572,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine-spring/7.11.0/camunda-engine-spring-7.11.0.jar!/org/camunda/bpm/engine/spring/SpringTransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#1227#1428#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/interceptor/ProcessApplicationContextInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/cmd/GetDeploymentResourceCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/cmd/CommandLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/interceptor/LogInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/interceptor/CommandContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="e#5393#5394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/persistence/entity/ProcessDefinitionEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="371" column="16" selection-start-line="371" selection-start-column="16" selection-end-line="371" selection-end-column="16" />
-          <folding>
-            <element signature="e#12581#12582#0" expanded="true" />
-            <element signature="e#12617#12618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/cmd/GetDeploymentProcessDiagramCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="60" column="49" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bpmn/P002_001.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/model/camunda-xml-model/7.11.0/camunda-xml-model-7.11.0.jar!/org/camunda/bpm/model/xml/type/ModelElementType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/model/camunda-bpmn-model/7.11.0/camunda-bpmn-model-7.11.0.jar!/org/camunda/bpm/model/bpmn/BpmnModelType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1025,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.11.0/camunda-engine-7.11.0-sources.jar!/org/camunda/bpm/engine/impl/AbstractQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3380">
@@ -1050,10 +797,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/MainApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P001/P001Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bpmn/P002_001.bpmn">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P002/P002Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="460">
+          <caret line="43" column="90" selection-start-line="43" selection-start-column="84" selection-end-line="43" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CamundaProject13/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1076,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P003/P003Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="163" column="101" selection-start-line="163" selection-start-column="93" selection-end-line="163" selection-end-column="101" />
+        <state relative-caret-position="300">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#P003_002_bpmn#0;class#P003Test#0" />
@@ -1086,34 +866,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P004/P004Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yaml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.1.RELEASE/spring-test-5.2.1.RELEASE.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="161" column="101" selection-start-line="161" selection-start-column="93" selection-end-line="161" selection-end-column="101" />
+        <state relative-caret-position="384">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/JB4DCLog-Dev-Mock-Error-Dev.log" />
+    <entry file="file://$PROJECT_DIR$/log/JB4DCLog-Dev-Mock-Info-Dev.log" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="61" selection-start-line="61" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/springboot/camunda-bpm-spring-boot-starter/3.3.4/camunda-bpm-spring-boot-starter-3.3.4.jar!/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/commons/camunda-commons-logging/1.7.1/camunda-commons-logging-1.7.1.jar!/org/camunda/commons/logging/BaseLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#P004_001_bpmn#0;class#P004Test#0" />
-            <element signature="method#getNextTasks#0;class#P004Test#0" />
-            <element signature="method#getOutgoingTask#0;class#P004Test#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P001/P001Test.java">
+    <entry file="file://$PROJECT_DIR$/log/JB4DCLog-Dev-Mock-Warn-Dev.log" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/springboot/camunda-bpm-spring-boot-starter/3.3.4/camunda-bpm-spring-boot-starter-3.3.4.jar!/org/camunda/bpm/spring/boot/starter/util/SpringBootProcessEngineLogger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="900">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/MainApplicationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CamundaProject13/CamundaUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="320">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1125,32 +943,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CamundaProject13/P004/P004Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CamundaProject13/CamundaUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CamundaProject13/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+        <state relative-caret-position="833">
+          <caret line="161" column="101" selection-start-line="161" selection-start-column="93" selection-end-line="161" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#P004_001_bpmn#0;class#P004Test#0" />
+            <element signature="method#getNextTasks#0;class#P004Test#0" />
           </folding>
         </state>
       </provider>
