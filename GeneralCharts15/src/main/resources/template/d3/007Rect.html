@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="js/d3.v5.min.js"></script>
+    <style>
+
+    </style>
+    <script>
+        margin = ({top: 30, right: 0, bottom: 30, left: 40})
+        height = 500
+        color = "steelblue"
+        yAxis = g => g
+            .attr("transform", `translate(${margin.left},0)`)
+            .call(d3.axisLeft(y).ticks(null, data.format))
+            .call(g => g.select(".domain").remove())
+            .call(g => g.append("text")
+                .attr("x", -margin.left)
+                .attr("y", 10)
+                .attr("fill", "currentColor")
+                .attr("text-anchor", "start")
+                .text(data.y))
+        xAxis = g => g
+            .attr("transform", `translate(0,${height - margin.bottom})`)
+            .call(d3.axisBottom(x).tickFormat(i => data[i].name).tickSizeOuter(0))
+        y = d3.scaleLinear()
+            .domain([0, d3.max(data, d => d.value)]).nice()
+            .range([height - margin.bottom, margin.top])
+        x = d3.scaleBand()
+            .domain(d3.range(data.length))
+            .range([margin.left, width - margin.right])
+            .padding(0.1)
+
+        data = Object.assign(d3.csvParse(await FileAttachment("alphabet.csv").text(), ({letter, frequency}) => ({name: letter, value: +frequency})).sort((a, b) => d3.descending(a.value, b.value)), {format: "%", y: "↑ Frequency"})
+    </script>
+</head>
+<body>
+
+</body>
+</html>

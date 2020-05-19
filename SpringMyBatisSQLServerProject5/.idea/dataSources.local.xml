@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="SpringMyBatisSQLServerProject5@localhost" uuid="579c57c1-a423-43b6-a38b-7a20fc318c45">
-      <database-info product="Microsoft SQL Server" version="10.50.2500" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 6.0 for SQL Server" driver-version="6.0.8112.100">
+      <database-info product="Microsoft SQL Server" version="10.50.2500" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 6.0 for SQL Server" driver-version="6.0.8112.100" dbms="MSSQL" exact-version="10.50.2500">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

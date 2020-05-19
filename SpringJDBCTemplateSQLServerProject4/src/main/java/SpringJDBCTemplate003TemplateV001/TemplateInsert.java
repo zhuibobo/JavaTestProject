@@ -91,6 +91,7 @@ public class TemplateInsert {
             jdbcOperations.execute(insertSql, new PreparedStatementCallback<Person>() {
                 @Override
                 public Person doInPreparedStatement(PreparedStatement ps) throws SQLException, DataAccessException {
+                    //ps.setClob();
                     ps.setObject(1, finalI);
                     ps.setObject(2,"InsertPersonByExecutePreparedStatementCallback");
                     ps.setObject(3,"男");
