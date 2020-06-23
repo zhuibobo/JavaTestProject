@@ -61,4 +61,31 @@
         app:layout_constraintStart_toEndOf="@+id/btn_scroll_view002"
         android:textAllCaps="false"
         app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
+
+    <Button
+        android:id="@+id/btn_scroll_view004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollView004"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view001" />
+
+    <Button
+        android:id="@+id/btn_swipe_refresh_view001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SwipeRefreshLayoutTest001"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
+
+    <Button
+        android:id="@+id/btn_swipe_refresh_view002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SwipeRefreshLayoutTest002"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/btn_swipe_refresh_view001"
+        app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
 </androidx.constraintlayout.widget.ConstraintLayout>

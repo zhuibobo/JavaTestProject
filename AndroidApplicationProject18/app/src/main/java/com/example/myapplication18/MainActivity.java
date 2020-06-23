@@ -81,6 +81,36 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btn_scroll_view004=findViewById(R.id.btn_scroll_view004);
+        btn_scroll_view004.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,ScrollViewTest004Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_swipe_refresh_view001=findViewById(R.id.btn_swipe_refresh_view001);
+        btn_swipe_refresh_view001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,SwipeRefreshLayoutTest001Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_swipe_refresh_view002=findViewById(R.id.btn_swipe_refresh_view002);
+        btn_swipe_refresh_view002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,SwipeRefreshLayoutTest002Activity.class);
+                startActivity(intent);
+            }
+        });
         /*findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
