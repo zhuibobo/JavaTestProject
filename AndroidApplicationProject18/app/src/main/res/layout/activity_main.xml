@@ -11,15 +11,36 @@
         android:id="@+id/btn_activity_linear_layout_test001"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="LinearLayoutTest001"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"
+        />
 
     <Button
         android:id="@+id/btn_activity_linear_layout_test002"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="LinearLayoutTest002"
+        android:textAllCaps="false"
         app:layout_constraintStart_toEndOf="@+id/btn_activity_linear_layout_test001"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_constraint_layout_test001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ConstraintLayoutTest001"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_activity_linear_layout_test001" />
+
+    <Button
+        android:id="@+id/btn_scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
 </androidx.constraintlayout.widget.ConstraintLayout>

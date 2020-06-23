@@ -22,14 +22,45 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate: hello word "+R.string.app_name);
-        Button button=findViewById(R.id.btn_activity_linear_layout_test001);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button btn_activity_linear_layout_test001=findViewById(R.id.btn_activity_linear_layout_test001);
+        btn_activity_linear_layout_test001.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,LinearLayoutTest001Activity.class);
+                startActivity(intent);
             }
         });
 
+        Button btn_activity_linear_layout_test002=findViewById(R.id.btn_activity_linear_layout_test002);
+        btn_activity_linear_layout_test002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,LinearLayoutTest002Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_constraint_layout_test001=findViewById(R.id.btn_constraint_layout_test001);
+        btn_constraint_layout_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,ConstraintLayoutTest001Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_scroll_view=findViewById(R.id.btn_scroll_view);
+        btn_scroll_view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,ScrollViewTest001Activity.class);
+                startActivity(intent);
+            }
+        });
         /*findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
