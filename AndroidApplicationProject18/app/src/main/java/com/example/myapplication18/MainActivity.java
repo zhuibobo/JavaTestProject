@@ -52,12 +52,32 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn_scroll_view=findViewById(R.id.btn_scroll_view);
-        btn_scroll_view.setOnClickListener(new View.OnClickListener() {
+        Button btn_scroll_view001=findViewById(R.id.btn_scroll_view001);
+        btn_scroll_view001.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(MainActivity.this,ScrollViewTest001Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_scroll_view002=findViewById(R.id.btn_scroll_view002);
+        btn_scroll_view002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,ScrollViewTest002Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_scroll_view003=findViewById(R.id.btn_scroll_view003);
+        btn_scroll_view003.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,ScrollViewTest003Activity.class);
                 startActivity(intent);
             }
         });
