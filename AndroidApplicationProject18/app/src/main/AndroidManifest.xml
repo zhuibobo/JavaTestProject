@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SwipeRefreshLayoutTest002Activity"></activity>
+        <activity android:name=".RecyclerViewTest004Activity"></activity>
+        <activity android:name=".RecyclerViewTest003Activity" />
+        <activity android:name=".RecyclerViewTest002Activity" />
+        <activity android:name=".RecyclerViewTest001Activity" />
+        <activity android:name=".SwipeRefreshLayoutTest002Activity" />
         <activity android:name=".SwipeRefreshLayoutTest001Activity" />
         <activity android:name=".ScrollViewTest004Activity" />
         <activity

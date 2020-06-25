@@ -88,4 +88,40 @@
         android:textAllCaps="false"
         app:layout_constraintStart_toEndOf="@+id/btn_swipe_refresh_view001"
         app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
+
+    <Button
+        android:id="@+id/btn_recycler_view001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerViewTest001"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_swipe_refresh_view001" />
+
+    <Button
+        android:id="@+id/btn_recycler_view002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerViewTest002"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/btn_recycler_view001"
+        app:layout_constraintTop_toTopOf="@+id/btn_recycler_view001" />
+
+    <Button
+        android:id="@+id/btn_recycler_view003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerViewTest003"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
+
+    <Button
+        android:id="@+id/btn_recycler_view004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerViewTest004"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/btn_recycler_view003"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
 </androidx.constraintlayout.widget.ConstraintLayout>

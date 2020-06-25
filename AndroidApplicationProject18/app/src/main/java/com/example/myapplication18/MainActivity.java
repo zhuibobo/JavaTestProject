@@ -111,6 +111,46 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btn_recycler_view001=findViewById(R.id.btn_recycler_view001);
+        btn_recycler_view001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,RecyclerViewTest001Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_recycler_view002=findViewById(R.id.btn_recycler_view002);
+        btn_recycler_view002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,RecyclerViewTest002Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_recycler_view003=findViewById(R.id.btn_recycler_view003);
+        btn_recycler_view003.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,RecyclerViewTest003Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_recycler_view004=findViewById(R.id.btn_recycler_view004);
+        btn_recycler_view004.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,RecyclerViewTest004Activity.class);
+                startActivity(intent);
+            }
+        });
         /*findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
