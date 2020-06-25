@@ -124,4 +124,13 @@
         android:textAllCaps="false"
         app:layout_constraintStart_toEndOf="@+id/btn_recycler_view003"
         app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
+
+    <Button
+        android:id="@+id/btn_recycler_view005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerViewTest005"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view003" />
 </androidx.constraintlayout.widget.ConstraintLayout>
