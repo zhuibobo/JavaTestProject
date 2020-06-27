@@ -161,6 +161,36 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btn_relative_layout_test001=findViewById(R.id.btn_relative_layout_test001);
+        btn_relative_layout_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,RelativeLayoutTest001Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_table_layout_test001=findViewById(R.id.btn_table_layout_test001);
+        btn_table_layout_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,TableLayoutTest001Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_smart_refresh_layout_test001=findViewById(R.id.btn_smart_refresh_layout_test001);
+        btn_smart_refresh_layout_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,SmartRefreshLayoutTest001Activity.class);
+                startActivity(intent);
+            }
+        });
         /*findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

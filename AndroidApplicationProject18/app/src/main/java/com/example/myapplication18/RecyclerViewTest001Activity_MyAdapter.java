@@ -10,6 +10,10 @@ import androidx.recyclerview.widget.RecyclerView;
 public class RecyclerViewTest001Activity_MyAdapter extends RecyclerView.Adapter<RecyclerViewTest001Activity_MyAdapter.MyViewHolder> {
     private String[] mDataset;
 
+    public void setmDataset(String[] mDataset) {
+        this.mDataset = mDataset;
+    }
+
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
     // you provide access to all the views for a data item in a view holder

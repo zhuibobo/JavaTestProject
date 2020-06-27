@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutTest001Activity">
+    <RelativeLayout
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <Button android:id="@+id/btn1"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="search"/>
+        <Button android:id="@+id/btn2"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btn1"
+            android:text="search"/>
+        <Button android:id="@+id/btn3"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn1"
+            android:text="search"/>
+        <EditText android:id="@+id/edit1"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btn2"
+            android:hint="input the key word"/>
+        <EditText android:id="@+id/edit2"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn3"
+            android:hint="input the key word"/>
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/bt1"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@id/bt1"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/timg"/>
+
+    <!-- 在中间图片的右边 -->
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/bt1"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/timg"/>
+
+    <!-- 在中间图片的上面-->
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/bt1"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/timg"/>
+
+    <!-- 在中间图片的下面 -->
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/bt1"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/timg"/>
+</RelativeLayout>
