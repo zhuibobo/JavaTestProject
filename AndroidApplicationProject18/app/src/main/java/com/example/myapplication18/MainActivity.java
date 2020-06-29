@@ -17,6 +17,8 @@ import com.example.myapplication18.bottomnavigation.BottomNavigationTest002Activ
 import com.example.myapplication18.fragment.FragmentTest001Activity;
 import com.example.myapplication18.fragment.FragmentTest002Activity;
 import com.example.myapplication18.navigation_drawer.NavigationDrawerTest001Activity;
+import com.example.myapplication18.navigation_drawer.NavigationViewTest002Activity;
+import com.example.myapplication18.navigation_drawer.NavigationViewTest003Activity;
 import com.example.myapplication18.recyclerview.RecyclerViewTest001Activity;
 import com.example.myapplication18.recyclerview.RecyclerViewTest002Activity;
 import com.example.myapplication18.recyclerview.RecyclerViewTest003Activity;
@@ -43,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(MainActivity.this,LinearLayoutTest001Activity.class);
                 startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }
         });
 
@@ -263,6 +266,29 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(MainActivity.this, NavigationDrawerTest001Activity.class);
                 startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_navigation_view_test002=findViewById(R.id.btn_navigation_view_test002);
+        btn_navigation_view_test002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, NavigationViewTest002Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_navigation_view_test003=findViewById(R.id.btn_navigation_view_test003);
+        btn_navigation_view_test003.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, NavigationViewTest003Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }
         });
         /*findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {

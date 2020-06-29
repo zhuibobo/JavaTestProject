@@ -44,6 +44,7 @@
                 android:background="@drawable/btn_touch_feedback"
                 android:text="LinearLayoutTest002"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_activity_linear_layout_test001"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:text="ConstraintLayoutTest001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_activity_linear_layout_test001" />
 
@@ -62,6 +64,7 @@
                 android:layout_height="wrap_content"
                 android:text="ScrollView001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
 
@@ -71,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:text="ScrollView002"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_scroll_view001"
                 app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
 
@@ -80,6 +84,7 @@
                 android:layout_height="wrap_content"
                 android:text="ScrollView003"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_scroll_view002"
                 app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
 
@@ -89,6 +94,7 @@
                 android:layout_height="wrap_content"
                 android:text="ScrollView004"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view001" />
 
@@ -98,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:text="SwipeRefreshLayoutTest001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
 
@@ -107,6 +114,7 @@
                 android:layout_height="wrap_content"
                 android:text="SwipeRefreshLayoutTest002"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_swipe_refresh_view001"
                 app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
 
@@ -116,6 +124,7 @@
                 android:layout_height="wrap_content"
                 android:text="RecyclerViewTest001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_swipe_refresh_view001" />
 
@@ -125,6 +134,7 @@
                 android:layout_height="wrap_content"
                 android:text="RecyclerViewTest002"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_recycler_view001"
                 app:layout_constraintTop_toTopOf="@+id/btn_recycler_view001" />
 
@@ -134,6 +144,7 @@
                 android:layout_height="wrap_content"
                 android:text="RecyclerViewTest003"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
 
@@ -143,6 +154,7 @@
                 android:layout_height="wrap_content"
                 android:text="RecyclerViewTest004"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_recycler_view003"
                 app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
 
@@ -152,6 +164,7 @@
                 android:layout_height="wrap_content"
                 android:text="RecyclerViewTest005"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view003" />
 
@@ -161,6 +174,7 @@
                 android:layout_height="wrap_content"
                 android:text="RelativeLayout001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view005" />
 
@@ -170,6 +184,7 @@
                 android:layout_height="wrap_content"
                 android:text="TableLayout001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_relative_layout_test001"
                 app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view005" />
 
@@ -179,6 +194,7 @@
                 android:layout_height="wrap_content"
                 android:text="SmartRefreshLayout001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_relative_layout_test001" />
 
@@ -188,6 +204,7 @@
                 android:layout_height="wrap_content"
                 android:text="BottomNavigationTest001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_smart_refresh_layout_test001" />
 
@@ -197,6 +214,7 @@
                 android:layout_height="wrap_content"
                 android:text="BottomNavigationTest002"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_bottom_navigation_test001"
                 app:layout_constraintTop_toBottomOf="@+id/btn_smart_refresh_layout_test001" />
 
@@ -206,6 +224,7 @@
                 android:layout_height="wrap_content"
                 android:text="TabbedTest001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_bottom_navigation_test001" />
 
@@ -215,6 +234,7 @@
                 android:layout_height="wrap_content"
                 android:text="FragmentTest001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_tabbed_test001" />
 
@@ -224,6 +244,7 @@
                 android:layout_height="wrap_content"
                 android:text="FragmentTest002"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_fragment_test001"
                 app:layout_constraintTop_toBottomOf="@+id/btn_tabbed_test001" />
 
@@ -233,6 +254,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2000dp"
                 android:text="Button"
+                style="@style/button1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -242,7 +264,28 @@
                 android:layout_height="wrap_content"
                 android:text="NavigationDrawer001"
                 android:textAllCaps="false"
+                style="@style/button1"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_fragment_test001" />
+
+            <Button
+                android:id="@+id/btn_navigation_view_test002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NavigationView002"
+                android:textAllCaps="false"
+                style="@style/button1"
+                app:layout_constraintStart_toEndOf="@+id/btn_navigation_drawer_test001"
+                app:layout_constraintTop_toBottomOf="@+id/btn_fragment_test001" />
+
+            <Button
+                android:id="@+id/btn_navigation_view_test003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NavigationView003"
+                android:textAllCaps="false"
+                style="@style/button1"
+                app:layout_constraintStart_toEndOf="@+id/btn_navigation_view_test002"
                 app:layout_constraintTop_toBottomOf="@+id/btn_fragment_test001" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
