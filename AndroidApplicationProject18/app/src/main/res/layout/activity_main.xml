@@ -8,160 +8,243 @@
     android:theme="@style/AppTheme.AppBarOverlay"
     >
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
 
-    <Button
-        android:id="@+id/btn_activity_linear_layout_test001"
-        style="@style/CodeFont"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LinearLayoutTest001"
-        android:textAllCaps="false"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btn_activity_linear_layout_test002"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LinearLayoutTest002"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toEndOf="@+id/btn_activity_linear_layout_test001"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/btn_touch_feedback"
-        />
+        app:layout_constraintVertical_bias="0.0">
 
-    <Button
-        android:id="@+id/btn_constraint_layout_test001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ConstraintLayoutTest001"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/btn_activity_linear_layout_test001" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn_scroll_view001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ScrollView001"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
+            <Button
+                android:id="@+id/btn_activity_linear_layout_test001"
+                style="@style/CodeFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LinearLayoutTest001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_scroll_view002"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ScrollView002"
-        app:layout_constraintStart_toEndOf="@+id/btn_scroll_view001"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
+            <Button
+                android:id="@+id/btn_activity_linear_layout_test002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_touch_feedback"
+                android:text="LinearLayoutTest002"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_activity_linear_layout_test001"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_scroll_view003"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ScrollView003"
-        app:layout_constraintStart_toEndOf="@+id/btn_scroll_view002"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
+            <Button
+                android:id="@+id/btn_constraint_layout_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ConstraintLayoutTest001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_activity_linear_layout_test001" />
 
-    <Button
-        android:id="@+id/btn_scroll_view004"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ScrollView004"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view001" />
+            <Button
+                android:id="@+id/btn_scroll_view001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScrollView001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
 
-    <Button
-        android:id="@+id/btn_swipe_refresh_view001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SwipeRefreshLayoutTest001"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
+            <Button
+                android:id="@+id/btn_scroll_view002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScrollView002"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_scroll_view001"
+                app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
 
-    <Button
-        android:id="@+id/btn_swipe_refresh_view002"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SwipeRefreshLayoutTest002"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toEndOf="@+id/btn_swipe_refresh_view001"
-        app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
+            <Button
+                android:id="@+id/btn_scroll_view003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScrollView003"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_scroll_view002"
+                app:layout_constraintTop_toBottomOf="@+id/btn_constraint_layout_test001" />
 
-    <Button
-        android:id="@+id/btn_recycler_view001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RecyclerViewTest001"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/btn_swipe_refresh_view001" />
+            <Button
+                android:id="@+id/btn_scroll_view004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScrollView004"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view001" />
 
-    <Button
-        android:id="@+id/btn_recycler_view002"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RecyclerViewTest002"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toEndOf="@+id/btn_recycler_view001"
-        app:layout_constraintTop_toTopOf="@+id/btn_recycler_view001" />
+            <Button
+                android:id="@+id/btn_swipe_refresh_view001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SwipeRefreshLayoutTest001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
 
-    <Button
-        android:id="@+id/btn_recycler_view003"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RecyclerViewTest003"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
+            <Button
+                android:id="@+id/btn_swipe_refresh_view002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SwipeRefreshLayoutTest002"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_swipe_refresh_view001"
+                app:layout_constraintTop_toBottomOf="@+id/btn_scroll_view004" />
 
-    <Button
-        android:id="@+id/btn_recycler_view004"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RecyclerViewTest004"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toEndOf="@+id/btn_recycler_view003"
-        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
+            <Button
+                android:id="@+id/btn_recycler_view001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RecyclerViewTest001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_swipe_refresh_view001" />
 
-    <Button
-        android:id="@+id/btn_recycler_view005"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RecyclerViewTest005"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view003" />
+            <Button
+                android:id="@+id/btn_recycler_view002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RecyclerViewTest002"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_recycler_view001"
+                app:layout_constraintTop_toTopOf="@+id/btn_recycler_view001" />
 
-    <Button
-        android:id="@+id/btn_relative_layout_test001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RelativeLayout001"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view005" />
+            <Button
+                android:id="@+id/btn_recycler_view003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RecyclerViewTest003"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
 
-    <Button
-        android:id="@+id/btn_table_layout_test001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TableLayout001"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toEndOf="@+id/btn_relative_layout_test001"
-        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view005" />
+            <Button
+                android:id="@+id/btn_recycler_view004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RecyclerViewTest004"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_recycler_view003"
+                app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view001" />
 
-    <Button
-        android:id="@+id/btn_smart_refresh_layout_test001"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SmartRefreshLayout001"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_relative_layout_test001" />
+            <Button
+                android:id="@+id/btn_recycler_view005"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RecyclerViewTest005"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view003" />
+
+            <Button
+                android:id="@+id/btn_relative_layout_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RelativeLayout001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view005" />
+
+            <Button
+                android:id="@+id/btn_table_layout_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TableLayout001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_relative_layout_test001"
+                app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view005" />
+
+            <Button
+                android:id="@+id/btn_smart_refresh_layout_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SmartRefreshLayout001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_relative_layout_test001" />
+
+            <Button
+                android:id="@+id/btn_bottom_navigation_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BottomNavigationTest001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_smart_refresh_layout_test001" />
+
+            <Button
+                android:id="@+id/btn_bottom_navigation_test002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BottomNavigationTest002"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_bottom_navigation_test001"
+                app:layout_constraintTop_toBottomOf="@+id/btn_smart_refresh_layout_test001" />
+
+            <Button
+                android:id="@+id/btn_tabbed_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TabbedTest001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_bottom_navigation_test001" />
+
+            <Button
+                android:id="@+id/btn_fragment_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FragmentTest001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_tabbed_test001" />
+
+            <Button
+                android:id="@+id/btn_fragment_test002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FragmentTest002"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_fragment_test001"
+                app:layout_constraintTop_toBottomOf="@+id/btn_tabbed_test001" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2000dp"
+                android:text="Button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_navigation_drawer_test001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NavigationDrawer001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_fragment_test001" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScrollViewTest002Activity"
+    tools:context=".scrollview.ScrollViewTest002Activity"
     android:layout_margin="20dp"
     android:background="@drawable/rectangle1"
     android:orientation="vertical"

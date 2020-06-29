@@ -9,23 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SmartRefreshLayoutTest001Activity"></activity>
+        <activity
+            android:name=".navigation_drawer.NavigationDrawerTest001Activity"
+            android:label="@string/title_activity_navigation_drawer_test001"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".bottomnavigation.BottomNavigationTest002Activity" />
+        <activity android:name=".fragment.FragmentTest002Activity" />
+        <activity android:name=".fragment.FragmentTest001Activity" />
+        <activity
+            android:name=".TabbedTest001Activity"
+            android:label="@string/title_activity_tabbed_test001"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bottomnavigation.BottomNavigationTest001Activity"
+            android:label="@string/title_activity_button_navigation_test001" />
+        <activity android:name=".SmartRefreshLayoutTest001Activity" />
         <activity android:name=".TableLayoutTest001Activity" />
         <activity android:name=".RelativeLayoutTest001Activity" />
-        <activity android:name=".RecyclerViewTest005Activity" />
-        <activity android:name=".RecyclerViewTest004Activity" />
-        <activity android:name=".RecyclerViewTest003Activity" />
-        <activity android:name=".RecyclerViewTest002Activity" />
-        <activity android:name=".RecyclerViewTest001Activity" />
+        <activity android:name=".recyclerview.RecyclerViewTest005Activity" />
+        <activity android:name=".recyclerview.RecyclerViewTest004Activity" />
+        <activity android:name=".recyclerview.RecyclerViewTest003Activity" />
+        <activity android:name=".recyclerview.RecyclerViewTest002Activity" />
+        <activity android:name=".recyclerview.RecyclerViewTest001Activity" />
         <activity android:name=".SwipeRefreshLayoutTest002Activity" />
         <activity android:name=".SwipeRefreshLayoutTest001Activity" />
-        <activity android:name=".ScrollViewTest004Activity" />
+        <activity android:name=".scrollview.ScrollViewTest004Activity" />
         <activity
-            android:name=".ScrollViewTest003Activity"
+            android:name=".scrollview.ScrollViewTest003Activity"
             android:label="@string/title_activity_scroll_view_test003"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ScrollViewTest002Activity" />
-        <activity android:name=".ScrollViewTest001Activity" />
+        <activity android:name=".scrollview.ScrollViewTest002Activity" />
+        <activity android:name=".scrollview.ScrollViewTest001Activity" />
         <activity android:name=".ConstraintLayoutTest001Activity" />
         <activity android:name=".LinearLayoutTest002Activity" />
         <activity android:name=".LinearLayoutTest001Activity" />
