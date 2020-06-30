@@ -17,4 +17,17 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
     </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Share" />
+            <item
+                android:id="@+id/menu_about"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="About" />
+        </menu>
+    </item>
 </menu>

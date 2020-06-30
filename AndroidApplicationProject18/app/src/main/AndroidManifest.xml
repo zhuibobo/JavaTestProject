@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".navigation_drawer.NavigationViewTest003Activity"></activity>
+        <activity
+            android:name=".navigation_drawer.NavigationViewTest003Activity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
         <activity
             android:name=".navigation_drawer.NavigationViewTest002Activity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
         <activity
             android:name=".navigation_drawer.NavigationDrawerTest001Activity"
             android:label="@string/title_activity_navigation_drawer_test001"
