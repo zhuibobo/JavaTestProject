@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.myapplication18.bottomnavigation.BottomNavigationTest001Activity;
 import com.example.myapplication18.bottomnavigation.BottomNavigationTest002Activity;
+import com.example.myapplication18.dialog.AlertDialogTest001Activity;
 import com.example.myapplication18.fragment.FragmentTest001Activity;
 import com.example.myapplication18.fragment.FragmentTest002Activity;
 import com.example.myapplication18.navigation_drawer.NavigationDrawerTest001Activity;
@@ -28,6 +29,8 @@ import com.example.myapplication18.scrollview.ScrollViewTest001Activity;
 import com.example.myapplication18.scrollview.ScrollViewTest002Activity;
 import com.example.myapplication18.scrollview.ScrollViewTest003Activity;
 import com.example.myapplication18.scrollview.ScrollViewTest004Activity;
+import com.example.myapplication18.toolbar.ToolbarTest001Activity;
+import com.example.myapplication18.webview.WebViewTest001Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -287,6 +290,39 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(MainActivity.this, NavigationViewTest003Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_toolbar_test001=findViewById(R.id.btn_toolbar_test001);
+        btn_toolbar_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, ToolbarTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_dialog_test001=findViewById(R.id.btn_dialog_test001);
+        btn_dialog_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, AlertDialogTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_web_view_test001=findViewById(R.id.btn_web_view_test001);
+        btn_web_view_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, WebViewTest001Activity.class);
                 startActivity(intent);
                 overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>Title</title>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function () {
+            //$("#message").html("jsButton1");
+            //alert("Hii!!!!");
+            //$("#message").html("jsButton2");
+            $("#button1").bind("click",{},() => {
+                alert("1");
+            })
+        });
+    </script>
+</head>
+<body>
+    <button type="button" value="button" id="button1">button222</button>
+    <div id="message"></div>
+    hello word
+</body>
+</html>

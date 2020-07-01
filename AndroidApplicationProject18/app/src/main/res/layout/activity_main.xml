@@ -287,6 +287,36 @@
                 style="@style/button1"
                 app:layout_constraintStart_toEndOf="@+id/btn_navigation_view_test002"
                 app:layout_constraintTop_toBottomOf="@+id/btn_fragment_test001" />
+
+            <Button
+                android:id="@+id/btn_toolbar_test001"
+                style="@style/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToolBar001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_navigation_drawer_test001" />
+
+            <Button
+                android:id="@+id/btn_dialog_test001"
+                style="@style/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AlertDialog001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/btn_toolbar_test001"
+                app:layout_constraintTop_toBottomOf="@+id/btn_navigation_drawer_test001" />
+
+            <Button
+                android:id="@+id/btn_web_view_test001"
+                style="@style/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WebView001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_toolbar_test001" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
