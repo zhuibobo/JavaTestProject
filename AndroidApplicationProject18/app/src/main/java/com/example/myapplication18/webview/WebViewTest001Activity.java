@@ -40,7 +40,7 @@ public class WebViewTest001Activity extends AppCompatActivity {
             @Override
             public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
                 //return super.onJsAlert(view, url, message, result);
-                midToast(message,Toast.LENGTH_LONG);
+                midToast("onJsAlert:"+message,Toast.LENGTH_LONG);
                 //return super.onJsAlert(view, url, message, result);
                 result.cancel();	//一定要cancel，否则会出现各种奇怪问题
                 return true;

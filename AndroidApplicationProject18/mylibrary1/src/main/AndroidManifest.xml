@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mylibrary1">
+
+    <application>
+        <activity android:name=".generalcontrol.FileTest001Activity"></activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".generalcontrol.EditTextTest001Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".generalcontrol.TextViewTest001Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

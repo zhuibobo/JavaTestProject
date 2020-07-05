@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6DCE4"
+        android:orientation="horizontal">
+        <Button android:id="@+id/browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="浏览"/>
+        
+        <Button android:id="@+id/publicSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签批"/>
+        
+        <Button android:id="@+id/sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签字"/>
+        
+        <Button android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="批注"/>
+        
+        <Button android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1000">
+        <LinearLayout android:id="@+id/contentLayout2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"/>
+        <include android:id="@+id/editLayout" layout="@layout/edit_view" android:visibility="gone"/>
+    </RelativeLayout>
+
+</LinearLayout>

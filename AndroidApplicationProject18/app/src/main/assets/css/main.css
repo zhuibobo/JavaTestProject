@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+.toolBar{
+    height: 40px;
+    background-color: #050a08;
+}
+
+.toolBar .back{
+    color: #ffffff;
+    float: left;
+    height: 100%;
+    line-height: 40px;
+    margin-left: 8px;
+}
+
+.toolBar .back:hover{
+    color: #9effa3;
+}
+
+.toolBar .refresh{
+    color: #ffffff;
+    float: right;
+    height: 100%;
+    line-height: 40px;
+    margin-right: 8px;
+}
+
+.toolBar .refresh:hover{
+    color: #9effa3;
+}
+
+.indexWarp{
+    border: #06026a 1px solid;
+    margin: 6px;
+    border-radius: 8px;
+    min-height: 545px;
+}
+
+.indexWarp .button{
+    float: left;
+    padding: 8px 16px;
+    margin: 10px;
+    border: #66b5ff 1px solid;
+    background-color: #050a08;
+    border-radius: 8px;
+    color: #ffffff;
+}

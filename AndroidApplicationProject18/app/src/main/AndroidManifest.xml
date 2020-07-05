@@ -3,6 +3,18 @@
     package="com.example.myapplication18">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
         android:allowBackup="true"
@@ -12,6 +24,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".dj.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".dj.CeActivity1"/>
+        <activity android:name=".dj.CeActivity2"/>
+        <activity android:name=".dj.CeActivity3"/>
+        <activity android:name=".dj.PopWriteActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/popDialog"/>
+
         <activity android:name=".dialog.CustDialogTest001Activity"></activity>
         <activity android:name=".dialog.AlertDialogTest001Activity" />
         <activity android:name=".webview.WebViewTest001Activity" />

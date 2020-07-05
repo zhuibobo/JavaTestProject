@@ -52,4 +52,9 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/text_white</item>
     </style>
+
+
+    <style name="popDialog">
+        <item name="android:backgroundDimEnabled">false</item><!-- 弹出对话框时背景不变暗 -->
+    </style>
 </resources>

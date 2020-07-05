@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6DCE4"
+        android:orientation="horizontal">
+        <Button android:id="@+id/browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="浏览"/>
+        
+        <Button android:id="@+id/addseal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="盖章"/>
+        
+        <Button android:id="@+id/wenzi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="批注"/>
+        
+        <Button android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑"/>
+        
+        <Button android:id="@+id/btnfont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="字号30"/>
+        
+        <Button android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D6DCE4"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btn21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左"/>
+        
+        <Button android:id="@+id/btn22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="右"/>
+        <Button android:id="@+id/btn23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上"/>
+        <Button android:id="@+id/btn24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1000">
+        <LinearLayout android:id="@+id/contentLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"/>
+        <include android:id="@+id/editLayout" layout="@layout/edit_view" android:visibility="gone"/>
+    </RelativeLayout>
+    
+
+</LinearLayout>

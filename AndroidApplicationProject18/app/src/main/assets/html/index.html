@@ -6,19 +6,21 @@
     <title>Title</title>
     <script src="../js/jquery-3.5.1.min.js"></script>
     <script>
-        $(function () {
-            //$("#message").html("jsButton1");
-            //alert("Hii!!!!");
-            //$("#message").html("jsButton2");
-            $("#button1").bind("click",{},() => {
-                alert("1");
-            })
-        });
+        let func={
+            alert:function () {
+                alert("Alert");
+            }
+        }
     </script>
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <button type="button" value="button" id="button1">button222</button>
-    <div id="message"></div>
-    hello word
+    <div class="toolBar">
+        <div class="back">back</div>
+        <div class="refresh">refresh</div>
+    </div>
+    <div class="indexWarp">
+        <div class="button" onclick="func.alert()">Alert</div>
+    </div>
 </body>
 </html>

@@ -31,6 +31,9 @@ import com.example.myapplication18.scrollview.ScrollViewTest003Activity;
 import com.example.myapplication18.scrollview.ScrollViewTest004Activity;
 import com.example.myapplication18.toolbar.ToolbarTest001Activity;
 import com.example.myapplication18.webview.WebViewTest001Activity;
+import com.example.mylibrary1.generalcontrol.EditTextTest001Activity;
+import com.example.mylibrary1.generalcontrol.FileTest001Activity;
+import com.example.mylibrary1.generalcontrol.TextViewTest001Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -323,6 +326,51 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(MainActivity.this, WebViewTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_text_view_test001=findViewById(R.id.btn_text_view_test001);
+        btn_text_view_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, TextViewTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_edit_view_test001=findViewById(R.id.btn_edit_view_test001);
+        //this.getBaseContext();
+        btn_edit_view_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, EditTextTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_file_test001=findViewById(R.id.btn_file_test001);
+        btn_file_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, FileTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_dj_test001=findViewById(R.id.btn_dj_test001);
+        btn_dj_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, com.example.myapplication18.dj.MainActivity.class);
                 startActivity(intent);
                 overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }
