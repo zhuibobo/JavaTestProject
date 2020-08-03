@@ -193,7 +193,7 @@
                 data: convertData()
             }
         }
-        function getLineDesc() {
+        function getLineToDesc() {
             var chinaCoordMap=getChinaCoordMap();
             var data = [
                 {
@@ -268,10 +268,47 @@
                     shadowColor: 'rgba(230,246,249,0.5)',
                     shadowBlur: 4,*/
                 },
+
                 markPoint:{
                     symbol : 'circle'
                 },
                 data: data
+            }
+        }
+        function getLineEndDesc(){
+            return {
+                type: 'scatter',
+                coordinateSystem: 'geo',
+                zlevel: 2,
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'right', //显示位置
+                        offset: [0, -10], //偏移设置
+                        formatter: function (params) {//圆环显示文字
+                            return params.data.label;
+                        },
+                        fontSize: 13
+                    },
+                    emphasis: {
+                        show: true
+                    }
+                },
+                symbol: 'circle',
+                symbolSize: function (val) {
+                    return 5 + val[2] * 5; //圆环大小
+                },
+                itemStyle: {
+                    normal: {
+                        show: false,
+                        color: '#2bffb3'
+                    }
+                },
+                data: [
+                    {"name":"西藏","value":[71.11, 19.97],"label":"我是西藏啊"},
+                    {"name":"新疆","value":[73.12965263669717, 46.89713738332498],"label":"我是新疆啊"},
+                    {"name":"内蒙古","value":[119.83147447325139, 46.011639329233994],"label":"我是内蒙古啊"}
+                ]
             }
         }
         $(function () {
@@ -305,7 +342,8 @@
                     getChinaGeoCoordMapEffectScatter()[0],
                     getChinaGeoCoordMapEffectScatter()[1],
                     getLineToXZ(),
-                    getLineDesc()
+                    getLineToDesc(),
+                    getLineEndDesc()
                 ]
             };
 

@@ -20,6 +20,7 @@ import com.example.myapplication18.fragment.FragmentTest002Activity;
 import com.example.myapplication18.navigation_drawer.NavigationDrawerTest001Activity;
 import com.example.myapplication18.navigation_drawer.NavigationViewTest002Activity;
 import com.example.myapplication18.navigation_drawer.NavigationViewTest003Activity;
+import com.example.myapplication18.popupwindow.PopupWindowTest001Activity;
 import com.example.myapplication18.recyclerview.RecyclerViewTest001Activity;
 import com.example.myapplication18.recyclerview.RecyclerViewTest002Activity;
 import com.example.myapplication18.recyclerview.RecyclerViewTest003Activity;
@@ -35,6 +36,8 @@ import com.example.mylibrary1.generalcontrol.EditTextTest001Activity;
 import com.example.mylibrary1.generalcontrol.FileTest001Activity;
 import com.example.mylibrary1.generalcontrol.TextViewTest001Activity;
 
+import me.pqpo.librarylog4a.Log4a;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
@@ -43,7 +46,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "onCreate: hello word "+R.string.app_name);
+
+        Log.d(TAG, "onCreate: hello word "+R.string.app_name+BuildConfig.BASE_URL1);
+
         Button btn_activity_linear_layout_test001=findViewById(R.id.btn_activity_linear_layout_test001);
         btn_activity_linear_layout_test001.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -375,6 +380,40 @@ public class MainActivity extends AppCompatActivity {
                 overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }
         });
+
+        Button btn_popup_window_test001=findViewById(R.id.btn_popup_window_test001);
+        btn_popup_window_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                LogInit.init(MainActivity.this);
+                Log4a.i(TAG, "Hello，Log4a!");
+                Log4a.i(TAG, "Hello，Log4a!");
+                Log4a.i(TAG, "Hello，Log4a!");
+                Log4a.i(TAG, "Hello，Log4a!");
+                Log4a.i(TAG, "Hello，Log4a!");
+                Log4a.i(TAG, "Hello，Log4a!");
+                Log4a.i(TAG, "Hello，Log4a!");
+                Log4a.d(TAG, "Hello，Log4a!");
+                Log4a.flush();
+                Log4a.release();
+
+                //Toast.makeText(MainActivity.this,"hello  toast!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this, PopupWindowTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
+
+        Button btn_event_bus_test001=findViewById(R.id.btn_event_bus_test001);
+        btn_event_bus_test001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, EventBusTest001Activity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+            }
+        });
         /*findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -382,6 +421,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });*/
+
     }
 
     @Override

@@ -33,7 +33,7 @@ import com.dianju.showpdf.DJContentView.OperType;
 import com.example.myapplication18.R;
 
 public class CeActivity1 extends Activity {
-	private String filePath = Environment.getExternalStorageDirectory()+"/dianju/1.pdf";
+	private String filePath = Environment.getExternalStorageDirectory()+"/dianju/test1.aip";
 	private LinearLayout contentLayout;
 	private DJContentView contentView;
 	private boolean isListener;
@@ -54,7 +54,7 @@ public class CeActivity1 extends Activity {
 		initEditMod();
 		this.contentLayout = (LinearLayout) this.findViewById(R.id.contentLayout1);
 		this.contentLayout.getViewTreeObserver().addOnPreDrawListener(new OnPreDrawListener() {
-			
+
 			@Override
 			public boolean onPreDraw() {
 				// TODO Auto-generated method stub
@@ -93,12 +93,12 @@ public class CeActivity1 extends Activity {
 					});
 					contentLayout.addView(contentView);
 				}
-				
+
 				return true;
 			}
 		});
 	}
-	
+
 	void initBtn() {//private Button browse,publicSign,comment,save;
 		this.browse = (Button) this.findViewById(R.id.browse);
 		this.addseal = (Button) this.findViewById(R.id.addseal);
@@ -110,9 +110,9 @@ public class CeActivity1 extends Activity {
 		this.btn22 = (Button) this.findViewById(R.id.btn22);
 		this.btn23 = (Button) this.findViewById(R.id.btn23);
 		this.btn24 = (Button) this.findViewById(R.id.btn24);
-		
+
 		this.browse.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -120,10 +120,10 @@ public class CeActivity1 extends Activity {
 				contentView.setCurrAction(OperType.NONE);
 			}
 		});
-		
+
 		//测试盖章
 		this.addseal.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -134,9 +134,9 @@ public class CeActivity1 extends Activity {
 				Log.d("dianju", "a="+a);
 			}
 		});
-		
+
 		this.wenzi.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -147,23 +147,23 @@ public class CeActivity1 extends Activity {
 
 		//测试录入文字+后缀签名
 		this.edit.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				if(contentView==null) return;
 				contentView.setCurrAction(OperType.EDITTEXT);
-				
+
 				//设置aip模板上的某些节点可编辑
 				List<String> list = new ArrayList<String>();
 				list.add("AT_T0_17_1T");//添加使用条款为可编辑节点
 				contentView.setEditNodes(list);
 			}
 		});
-		
+
 		//测试录入文字+后缀签名
 		this.btnfont.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -171,9 +171,9 @@ public class CeActivity1 extends Activity {
 				Toast.makeText(CeActivity1.this, "字号已设置为30", Toast.LENGTH_LONG).show();
 			}
 		});
-		
+
 		this.save.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -186,12 +186,12 @@ public class CeActivity1 extends Activity {
 				} else {
 					Toast.makeText(CeActivity1.this, "保存失败!", Toast.LENGTH_LONG).show();
 				}
-				
+
 			}
 		});
-		
+
 		this.btn21.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -199,9 +199,9 @@ public class CeActivity1 extends Activity {
 				contentView.freshPDF();
 			}
 		});
-		
+
 		this.btn22.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -211,7 +211,7 @@ public class CeActivity1 extends Activity {
 		});
 
 		this.btn23.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -219,9 +219,9 @@ public class CeActivity1 extends Activity {
 				contentView.freshPDF();
 			}
 		});
-		
+
 		this.btn24.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
@@ -229,16 +229,16 @@ public class CeActivity1 extends Activity {
 				contentView.freshPDF();
 			}
 		});
-		
+
 	}
-	
+
 	void initEditMod() {
 		imm = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
 		editLayout = (LinearLayout) this.findViewById(R.id.editLayout);
 		this.editArea = (EditText) this.findViewById(R.id.editArea);
 		btnOK = (Button) this.findViewById(R.id.btn_ok);
 		btnCancel = (Button) this.findViewById(R.id.btn_cancel);
-		
+
 		btnOK.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -279,7 +279,7 @@ public class CeActivity1 extends Activity {
 			}
 		});
 	}
-	
+
 	void externalEvent(MotionEvent event) {
 		if((!contentView.isLockScreen()) && ((event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_UP)) {
 			if(contentView.getCurrAction() == OperType.AUTO_HANDLE) {//批注弹文字采集框
@@ -292,7 +292,7 @@ public class CeActivity1 extends Activity {
 				int h = contentView.getClickNodeHeight();
 				//定义默认宽度(当宽度小于8000时，设置为最大宽度，包含点击情况下的宽度)
 				if(w<8000) {
-					w = 8000;
+					w = 49000-contentView.getClickNodeX();
 				}
 				if(h<2000) {
 					h = 2000;
@@ -301,11 +301,10 @@ public class CeActivity1 extends Activity {
 				contentView.setValue(nodename,":PROP:FACENAME:仿宋_GB2312");
 				contentView.setValue(nodename, ":PROP:FONTSIZE:"+fontsize);
 				contentView.setValue(nodename, ":PROP:FONTBOLD:1");
-				contentView.setValue(nodename,":PROP:FREESIZE:2");//设置纵向和横向扩展
 				contentView.currNodeName = nodename;
 				contentView.setDrawColorNode(nodename);
 				contentView.freshPDF();
-				
+
 				//弹出文字采集框
 				//将页面坐标转换为屏幕坐标
 				float[] lt = contentView.getScreenXYFormPageXY(page, x, y);//获取框左上角xy屏幕坐标
@@ -316,7 +315,7 @@ public class CeActivity1 extends Activity {
 				editLayout.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
 				//设置android文字框大小跟aip文件上文字节点大小相同
 				editArea.setLayoutParams(new LinearLayout.LayoutParams((int)(rb[0]-lt[0]), (int)(rb[1]-lt[1])));
-				
+
 				editArea.setText("");
 				editLayout.setVisibility(View.VISIBLE);
 				editArea.requestFocus();
@@ -327,7 +326,7 @@ public class CeActivity1 extends Activity {
 				//节点带颜色显示
 				contentView.setDrawColorNode(contentView.currNodeName);
 				contentView.freshPDF();
-				
+
 				//获取框的屏幕坐标数据(EDITTEXT编辑状态下下面方法返回的已是屏幕坐标)
 				int page = contentView.getClickPage();
 				int x = contentView.getClickNodeX();
@@ -340,7 +339,7 @@ public class CeActivity1 extends Activity {
 				editLayout.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
 				//设置android文字框大小跟aip文件上文字节点大小相同
 				editArea.setLayoutParams(new LinearLayout.LayoutParams(w, h));
-				
+
 				String content = contentView.getValueEx(contentView.currNodeName, 2, "", 0, "");
 				editArea.setText(content);
 				editLayout.setVisibility(View.VISIBLE);
@@ -350,22 +349,22 @@ public class CeActivity1 extends Activity {
 			}
 		}
 	}
-	
+
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		switch(requestCode){
-		case 5://弹出手写窗体返回
-			if(resultCode==1){//确定按钮
-				if(contentView == null) return;
-				String writeData=data.getStringExtra("writeData");
-				String signArea = "sign";//模板中定义名字
-				contentView.setValue(signArea, "");
-				contentView.pasteNodesToArea(signArea, writeData);
-				contentView.freshPDF();
-			}
-			break;
+			case 5://弹出手写窗体返回
+				if(resultCode==1){//确定按钮
+					if(contentView == null) return;
+					String writeData=data.getStringExtra("writeData");
+					String signArea = "sign";//模板中定义名字
+					contentView.setValue(signArea, "");
+					contentView.pasteNodesToArea(signArea, writeData);
+					contentView.freshPDF();
+				}
+				break;
 		}
 	}
-	
+
 	@Override
 	protected void onResume() {
 		// TODO Auto-generated method stub
@@ -374,7 +373,7 @@ public class CeActivity1 extends Activity {
 		}
 		super.onResume();
 	}
-	
+
 	@Override
 	protected void onPause() {
 		// TODO Auto-generated method stub
@@ -383,7 +382,7 @@ public class CeActivity1 extends Activity {
 		}
 		super.onPause();
 	}
-	
+
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
@@ -394,11 +393,11 @@ public class CeActivity1 extends Activity {
 		}
 		super.onDestroy();
 	}
-	
+
 	public boolean login() {
 		//此处缺省授权代码getLicOnline，因为使用类型4-测试用户，不需要授权(测试用户包含HWSEALDEMO、HWSEALDEMO1、HWSEALDEMO2)
 		//String verifyRes = contentView.getLicOnline("http://www.dianju.cn:9239", "androidceshi004");
-		contentView.verifyLic("FeL1sPWmIiBdWEUFMGb3rOrznVfhjPMS");//试用授权
+		contentView.verifyLic("oJLokpA9Nw49QL8zvWBisB/hd51VKpDOhtreQIdUMQZ65Au1CEeemg==");//试用授权
 		int res = contentView.login("lzw", 2, "");
 		//为该用户的文字内容设置签名图片
 		String picPath = Environment.getExternalStorageDirectory()+"/dianju/djtest2.sel";
@@ -407,7 +406,7 @@ public class CeActivity1 extends Activity {
 		if(res==1) return true;
 		return false;
 	}
-	
+
 	public static boolean saveTo(byte[] data, String path) {
 		try {
 			File file = new File(path);
@@ -421,7 +420,7 @@ public class CeActivity1 extends Activity {
 			return false;
 		}
 	}
-	
+
 	//获取一个随机字符串
 	String getRandName(String head) {
 		Date d = new Date();

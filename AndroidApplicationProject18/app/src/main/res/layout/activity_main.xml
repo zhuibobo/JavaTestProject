@@ -357,6 +357,25 @@
                 android:textAllCaps="false"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_web_view_test001" />
+
+            <Button
+                android:id="@+id/btn_popup_window_test001"
+                style="@style/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PopupWindow001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_dj_test001" />
+            <Button
+                android:id="@+id/btn_event_bus_test001"
+                style="@style/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EventBus001"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_popup_window_test001" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 

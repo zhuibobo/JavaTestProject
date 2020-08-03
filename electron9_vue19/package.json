@@ -1,0 +1,57 @@
+{
+  "name": "electron9_vue19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "alex_application": "node_modules\\electron\\dist\\electron.exe .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "electron-webpack-dev": "electron-webpack dev",
+    "electron-webpack-compile": "electron-webpack",
+    "electron-webpack-build": "electron-webpack build",
+    "electron-webpack-dist": "D:\\DevGeneral\\node-v12.18.2-win-x64\\node_global\\yarn compile && electron-builder",
+    "compile": "electron-webpack",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "electronWebpack": {
+    "renderer": {
+      "template": "src/renderer/index.html"
+    }
+  },
+  "build": {
+    "productName": "AlexApplication",
+    "appId": "alex.application",
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "directories": {
+      "output": "build"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "echarts": "^4.8.0",
+    "electron-store": "^6.0.0",
+    "element-ui": "^2.13.2",
+    "iconv-lite": "^0.6.2",
+    "jquery": "^3.5.1",
+    "request": "^2.88.2",
+    "source-map-support": "^0.5.19",
+    "sqlite3": "^5.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0",
+    "electron-webpack": "^2.8.2",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  }
+}

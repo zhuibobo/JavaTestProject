@@ -1663,8 +1663,10 @@ public class ClfUtil{
 	public static String getUUID(Context context){
 		TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);   
         String tmDevice, tmSerial, tmPhone, androidId;   
-        tmDevice = "" + tm.getDeviceId();  
-        tmSerial = "" + tm.getSimSerialNumber();   
+        /*tmDevice = "" + tm.getDeviceId();
+        tmSerial = "" + tm.getSimSerialNumber();   */
+		tmDevice = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+		tmSerial = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         androidId = "" + Secure.getString(context.getContentResolver(), Secure.ANDROID_ID);
         UUID deviceUuid = new UUID(androidId.hashCode(), ((long)tmDevice.hashCode() << 32) | tmSerial.hashCode());
         String uniqueId = deviceUuid.toString();
