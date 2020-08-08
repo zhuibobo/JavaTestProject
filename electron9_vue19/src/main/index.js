@@ -22,7 +22,8 @@ app.on('ready', () => {
         //frame:false,
         webPreferences:{
             nodeIntegration: true,
-            webSecurity: false
+            webSecurity: false,
+            webviewTag:true
         }
     });
     mainWindow.maximize()
@@ -31,12 +32,13 @@ app.on('ready', () => {
     //menu.setApplicationMenu(appMenu);
     let url="";
     if(process.env.NODE_ENV!=='production'){
-        mainWindow.webContents.openDevTools();
+        //mainWindow.webContents.openDevTools();
         url="http://localhost:"+process.env.ELECTRON_WEBPACK_WDS_PORT;
+        //url="http://localhost:9080/iframe/main-component-iframe/mainComponentIFrame.html?mainComponent=threejs-chapter-01-01-basic-skeleton";
     }
     else
     {
-        //mainWindow.webContents.openDevTools();
+        mainWindow.webContents.openDevTools();
         url=URL.format({pathname:path.join(__dirname,'index.html'),protocol:'file'});
     }
     //url='file://'+app.getAppPath()+"../../dist/renderer/index.html";

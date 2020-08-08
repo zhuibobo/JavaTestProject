@@ -2,50 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78c2d2c1-4a94-4fc7-b11f-d19c5621f1d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/cooperatorA/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/EventBusTest001Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/LogInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/MessageEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/popupwindow/PopupWindowTest001Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/anim/anim_pop.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_event_bus_test001.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_popup_window_test001.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/item_popup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/signkeystore/test.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/GeneralCharts15.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GradleJavaProject19/src/main/java/GradleJavaProject19/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/build/icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/empty.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/left-main-menu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/lib/china.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/main-application.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electron9_vue19/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/assets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/assets/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/dj/CeActivity1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/dj/CeActivity1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/dj/ClfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/java/com/example/myapplication18/dj/ClfUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_scroll_view_test004.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_scroll_view_test004.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_smart_refresh_layout_test001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_smart_refresh_layout_test001.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_swipe_refresh_layout_test001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_swipe_refresh_layout_test001.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_swipe_refresh_layout_test002.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/activity_swipe_refresh_layout_test002.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/ce1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/app/src/main/res/layout/ce1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AndroidApplicationProject18/mylibrary1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidApplicationProject18/mylibrary1/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ElectronProject14/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ElectronProject14/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ElectronProject14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ElectronProject14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/d3-hello-word.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/d3-rect-demo01.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/d3-rect-demo02.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/d3-rect-demo03.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/d3-rect-demo04.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome03.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome04.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/template/echarts/GeoMap4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/template/echarts/GeoMap4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/.idea/electron9_vue19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/.idea/electron9_vue19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome01.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/echart-geomap-dome02.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/left-main-menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/component/left-main-menu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electron9_vue19/src/renderer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../electron9_vue19/src/renderer/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +66,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../electron9_vue19" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -138,7 +110,8 @@
       <workItem from="1595311205035" duration="5725000" />
       <workItem from="1595472892918" duration="18000" />
       <workItem from="1596454819663" duration="8000" />
-      <workItem from="1596455115237" duration="2425000" />
+      <workItem from="1596455115237" duration="6670000" />
+      <workItem from="1596506693844" duration="5067000" />
     </task>
     <servers />
   </component>
@@ -146,10 +119,11 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1595472907426">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="3355" y="275" key="FileChooserDialogImpl" timestamp="1596459871281">
+      <screen x="2560" y="0" width="1920" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1595472907426" />
+    <state x="3355" y="275" key="FileChooserDialogImpl/0.0.2560.1040/2560.0.1920.1040@2560.0.1920.1040" timestamp="1596459871281" />
   </component>
   <component name="masterDetails">
     <states>

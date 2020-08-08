@@ -6,6 +6,8 @@ out
 log
 node_modules
 dist
+/electron9_vue19/build
+/electron9_vue19/dist
 ##############################
 ## Files                    ##
 ##############################

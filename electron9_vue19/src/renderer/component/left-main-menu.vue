@@ -2,49 +2,53 @@
     <el-menu default-active="1-4-1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" @select="handleChange" :collapse="isCollapse">
         <el-submenu index="echart">
             <template slot="title">
-                <i class="el-icon-location"></i>
+                <i class="el-icon-pie-chart"></i>
                 <span slot="title">EChart</span>
             </template>
-            <el-submenu index="echart-geomap">
-                <span slot="title">geomap</span>
-                <el-menu-item index="echart-geomap-dome1">dome1</el-menu-item>
-                <el-menu-item index="echart-geomap-dome2">dome2</el-menu-item>
-            </el-submenu>
             <el-menu-item-group>
-                <span slot="title">分组一</span>
-                <el-menu-item index="1-1">选项1</el-menu-item>
-                <el-menu-item index="1-2">选项2</el-menu-item>
-            </el-menu-item-group>
-            <el-menu-item-group title="分组2">
-                <el-menu-item index="1-3">选项3</el-menu-item>
+                <span slot="title">EChart</span>
+                <el-submenu index="echart-geomap">
+                    <span slot="title">geomap</span>
+                    <el-menu-item index="echart-geomap-dome01">dome1</el-menu-item>
+                    <el-menu-item index="echart-geomap-dome02">dome2</el-menu-item>
+                    <el-menu-item index="echart-geomap-dome03">dome3</el-menu-item>
+                    <el-menu-item index="echart-geomap-dome04">dome4</el-menu-item>
+                </el-submenu>
             </el-menu-item-group>
         </el-submenu>
-        <el-menu-item index="2" disabled>
-            <i class="el-icon-menu"></i>
-            <span slot="title">磁盘管理</span>
-        </el-menu-item>
-        <el-submenu index="3">
+        <el-submenu index="d3">
             <template slot="title">
-                <i class="el-icon-link"></i>
-                <span slot="title">工具</span>
+                <i class="el-icon-bangzhu"></i>
+                <span slot="title">D3</span>
             </template>
             <el-menu-item-group>
-                <span slot="title">处理工具</span>
-                <el-menu-item index="resolve-javbus-magnet">解析JavBus磁力链接</el-menu-item>
-                <el-menu-item index="local-video-tools">本地视频处理</el-menu-item>
-                <el-menu-item index="hard-disk-overview-scanning">磁盘概况扫描</el-menu-item>
-                <el-menu-item index="av-video-search-subtitle">番号匹配字幕(DEVING)</el-menu-item>
+                <span slot="title">D3</span>
+                <el-submenu index="d3-rect">
+                    <span slot="title">rect</span>
+                    <el-menu-item index="d3-hello-word">hello-word</el-menu-item>
+                    <el-menu-item index="d3-rect-demo01">demo01</el-menu-item>
+                    <el-menu-item index="d3-rect-demo02">demo02</el-menu-item>
+                    <el-menu-item index="d3-rect-demo03">demo03</el-menu-item>
+                    <el-menu-item index="d3-rect-demo04">demo04</el-menu-item>
+                </el-submenu>
             </el-menu-item-group>
         </el-submenu>
-        <el-submenu index="4" disabled>
+        <el-submenu index="threeJS">
             <template slot="title">
-                <i class="el-icon-setting"></i>
-                <span slot="title">工具</span>
+                <i class="el-icon-coin"></i>
+                <span slot="title">threeJS</span>
             </template>
             <el-menu-item-group>
-                <span slot="title">Tools</span>
-                <el-menu-item index="encryption-tools">加 / 解密</el-menu-item>
-                <el-menu-item index="paras-setting">参数设置</el-menu-item>
+                <span slot="title">threeJS</span>
+                <el-submenu index="threejs-chapter-01">
+                    <span slot="title">threejs-chapter-01</span>
+                    <el-menu-item index="threejs-chapter-01-01-basic-skeleton">threejs-chapter-01-01-basic-skeleton</el-menu-item>
+                    <el-menu-item index="threejs-chapter-01-02-first-scene">threejs-chapter-01-02-first-scene</el-menu-item>
+                    <el-menu-item index="threejs-chapter-01-03-materials-light">threejs-chapter-01-03-materials-light</el-menu-item>
+                    <el-menu-item index="threejs-chapter-01-04-materials-light-animation">threejs-chapter-01-04-materials-light-animation</el-menu-item>
+                    <el-menu-item index="threejs-chapter-01-05-control-gui">threejs-chapter-01-05-control-gui</el-menu-item>
+                    <el-menu-item index="threejs-chapter-02-01-basic-scene">threejs-chapter-02-01-basic-scene</el-menu-item>
+                </el-submenu>
             </el-menu-item-group>
         </el-submenu>
     </el-menu>

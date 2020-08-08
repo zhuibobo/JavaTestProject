@@ -1,7 +1,7 @@
 <template>
     <el-container style="height: 100%;border: 1px solid #eee">
         <el-header>
-            Alex-Application
+            electron9_vue191
         </el-header>
         <el-container>
             <el-aside width="65px">
@@ -9,7 +9,7 @@
             </el-aside>
 
             <el-main>
-                <component v-bind:is="mainComponent"></component>
+                <webview ref="mainComponentIFrame" nodeintegration src="webview/main-component-webview/mainComponentWebView.html" style="display:inline-flex; width: 100%;height: 99%"></webview>
             </el-main>
         </el-container>
         <el-footer>
@@ -25,14 +25,23 @@
         name: "main-application",
         data:function () {
             return {
-                mainComponent:"empty"
+                mainComponent:"empty",
+                webview:null
             }
+        },
+        mounted() {
+            this.webview=this.$refs.mainComponentIFrame;
+            let webview= this.webview;
+            webview.addEventListener("dom-ready", function() {
+                webview.openDevTools();
+            });
         },
         methods:{
             menuChange:function (key, keyPath) {
                 //if(key=="encryption-tools"){
-                    this.mainComponent=key;
+                    //this.mainComponent=key;
                 //}
+                this.webview.src="webview/main-component-webview/mainComponentWebView.html?mainComponent="+key;
                 console.log(key);
             }
         }

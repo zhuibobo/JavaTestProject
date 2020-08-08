@@ -1,5 +1,5 @@
 <template>
-    <div id="main" style="width: 1600px;height:900px;"></div>
+    <div id="echart-geomap-dome03" style="width: 1600px;height:900px;"></div>
 </template>
 
 <script>
@@ -151,11 +151,51 @@
             data: data.filter(function (element, index, array) { return element.name=="西藏" })
         }]
     }
+    function getLineToXZ(){
+        function convertData() {
+            var chinaCoordMap=getChinaCoordMap();
+            var res = [];
+            for(var key in chinaCoordMap) {
+                //var dataItem = getChinaCoordMap[i];
+                var fromCoord = chinaCoordMap[key];
+                var toCoord = chinaCoordMap["西藏"];
+                if(fromCoord && toCoord) {
+                    res.push([{
+                        coord: fromCoord,
+                        value: 100
+                    }, {
+                        coord: toCoord
+                    }]);
+                }
+            }
+            console.log(res);
+            return res;
+        };
+        return  {
+            type: 'lines',
+            zlevel: 2,
+            effect: {
+                show: true,
+                period: 4, //箭头指向速度，值越小速度越快
+                trailLength: 0.02, //特效尾迹长度[0,1]值越大，尾迹越长重
+                symbol: 'arrow', //箭头图标
+                symbolSize: 5 //图标大小
+            },
+            lineStyle: {
+                normal: {
+                    width: 1, //尾迹线条宽度
+                    opacity: 1, //尾迹线条透明度
+                    curveness: .9 //尾迹线条曲直度
+                }
+            },
+            data: convertData()
+        }
+    }
 
     export default {
-        name: "echart-geomap-dome2",
+        name: "echart-geomap-dome03",
         mounted() {
-            var option = {
+            let option = {
                 backgroundColor: '#404a59',
                 animation: true,
                 animationDuration: 1000,
@@ -183,22 +223,23 @@
                 geo: getChinaGeoOption(),
                 series: [
                     getChinaGeoCoordMapEffectScatter()[0],
-                    getChinaGeoCoordMapEffectScatter()[1]
+                    getChinaGeoCoordMapEffectScatter()[1],
+                    getLineToXZ()
                 ]
             };
 
-            var myChart = echarts.init(document.getElementById('main'));
+            let myChart = echarts.init(document.getElementById('echart-geomap-dome03'));
             myChart.setOption(option);
 
             myChart.on('click', function (params) {
 
-                var mouseEvent = params.event;
-                var event = mouseEvent.event;
-                var pageX = event.pageX;
-                var pageY = event.pageY;
-                var arr = [pageX, pageY];
+                let mouseEvent = params.event;
+                let event = mouseEvent.event;
+                let pageX = event.pageX;
+                let pageY = event.pageY;
+                let arr = [pageX, pageY];
 
-                var data = myChart.convertFromPixel('geo', arr);
+                let data = myChart.convertFromPixel('geo', arr);
                 console.log(data);
             });
         }

@@ -1,5 +1,5 @@
 <template>
-    <div id="main" style="width: 1600px;height:900px;"></div>
+    <div id="echart-geomap-dome01" style="width: 1600px;height:900px;"></div>
 </template>
 
 <script>
@@ -32,7 +32,7 @@
     }
 
     export default {
-        name: "echart-geomap-dome1",
+        name: "echart-geomap-dome01",
         mounted() {
             let option = {
                 backgroundColor: '#404a59',
@@ -62,7 +62,7 @@
                 geo:getChinaGeoOption()
             };
 
-            var myChart = echarts.init(document.getElementById('main'));
+            let myChart = echarts.init(document.getElementById('echart-geomap-dome01'));
             myChart.setOption(option);
         }
     }
