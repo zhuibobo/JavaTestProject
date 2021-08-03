@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot253RestInterface" />
+        <module name="SpringBoot253CloudGateway" />
+        <module name="SpringBoot253CloudNetflixEurekaServer" />
+        <module name="SpringBoot253CloudConfigServer" />
+        <module name="SpringBoot253RestClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot253CloudConfigServer" target="1.8" />
+      <module name="SpringBoot253CloudGateway" target="1.8" />
+      <module name="SpringBoot253CloudNetflixEurekaServer" target="1.8" />
+      <module name="SpringBoot253RestClient" target="1.8" />
+      <module name="SpringBoot253RestInterface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot253CloudConfigServer" options="-parameters" />
+      <module name="SpringBoot253CloudGateway" options="-parameters" />
+      <module name="SpringBoot253CloudNetflixEurekaServer" options="-parameters" />
+      <module name="SpringBoot253RestClient" options="-parameters" />
+      <module name="SpringBoot253RestInterface" options="-parameters" />
+    </option>
+  </component>
+</project>

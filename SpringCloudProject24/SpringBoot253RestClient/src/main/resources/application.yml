@@ -1,0 +1,44 @@
+server:
+  port: 18180
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:19080/eureka/
+  instance:
+    appname: SpringBoot253RestClient
+    hostname: 127.0.0.1
+    instance-id: client-for-rest-client-instance-1
+
+ribbon:
+  eureka:
+    enabled: false
+
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        max-retries-on-same-service-instance: 1
+        max-retries-on-next-service-instance: 0
+        retryable-status-codes: 500
+  application:
+    name: SpringBoot253RestClient
+
+
+feign:
+  circuitbreaker:
+    enabled: true
+#resilience4j.circuitbreaker:
+#  configs:
+#    default:
+#      # 是否向 Actuator 的 HealthIndicator 注册
+#      registerHealthIndicator: true
+#      slidingWindowSize: 10
+#      minimumNumberOfCalls: 5
+#      slidingWindowType: TIME_BASED
+#      permittedNumberOfCallsInHalfOpenState: 3
+#      automaticTransitionFromOpenToHalfOpenEnabled: true
+#      waitDurationInOpenState: 2s
+#      failureRateThreshold: 30
+#      recordExceptions:
+#        - java.lang.Exception

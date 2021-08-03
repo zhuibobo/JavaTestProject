@@ -9,7 +9,13 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <user-name>sa</user-name>
-      <introspection-schemas>SpringMyBatisSQLServerProject5:dbo</introspection-schemas>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="SpringMyBatisSQLServerProject5">
+            <node kind="schema" qname="dbo" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>

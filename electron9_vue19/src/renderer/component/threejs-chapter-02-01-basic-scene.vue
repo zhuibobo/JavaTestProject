@@ -9,7 +9,7 @@
     let THREE = require("three");
     const Stats = require('exports-loader?type=commonjs&exports=single|Stats!../lib/stats.js');
     const dat = require('dat.gui');
-    const _$=require("jquery");
+    const _$ = require("jquery");
 
     export default {
         name: "threejs-chapter-02-01-basic-scene",
@@ -113,16 +113,12 @@
             }
         };
 
-        //if(!window.threejsChapter0201BasicSceneGUI) {
-        //_$(".dg").hide();
-            var gui = new dat.GUI();
-            //window.threejsChapter0201BasicSceneGUI=gui;
-            gui.add(controls, 'rotationSpeed', 0, 0.5);
-            gui.add(controls, 'addCube');
-            gui.add(controls, 'removeCube');
-            gui.add(controls, 'outputObjects');
-            gui.add(controls, 'numberOfObjects').listen();
-        //}
+        var gui = new dat.GUI();
+        gui.add(controls, 'rotationSpeed', 0, 0.5);
+        gui.add(controls, 'addCube');
+        gui.add(controls, 'removeCube');
+        gui.add(controls, 'outputObjects');
+        gui.add(controls, 'numberOfObjects').listen();
 
         render();
 

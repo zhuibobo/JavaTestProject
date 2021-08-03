@@ -1,0 +1,6 @@
+server:
+  port: 18094
+
+eureka:
+  instance:
+    instance-id: client-for-rest-interface-instance-18094-2

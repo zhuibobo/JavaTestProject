@@ -135,8 +135,8 @@
 
             // Align top-left
             stats.domElement.style.position = 'absolute';
-            stats.domElement.style.left = '80px';
-            stats.domElement.style.top = '80px';
+            stats.domElement.style.left = '0px';
+            stats.domElement.style.top = '0px';
 
             document.getElementById("threejs-chapter-01-05-stats-output").appendChild(stats.domElement);
 

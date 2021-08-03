@@ -1,0 +1,31 @@
+server:
+  port: 28080
+spring:
+  application:
+    name: SpringBoot253CloudGateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true #自动发现eureka中的服务,/服务名大写/xxx/
+      routes:
+        - id: springBoot253RestInterface
+          uri: lb://SpringBoot253RestInterface
+          predicates:
+            - Path=/el/**
+          filters:
+            - StripPrefix=1
+#        - id: springBoot253RestClient
+#          uri: http://127.0.0.1:18180/SpringBoot253RestClient
+#          predicates:
+#            - Path=/SpringBoot253RestClient/{segment}
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:19080/eureka/
+  instance:
+    appname: SpringBoot253CloudGateway
+    hostname: 127.0.0.1
+    instance-id: SpringBoot253CloudGateway-1

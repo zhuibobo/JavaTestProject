@@ -89,11 +89,13 @@
         renderer.render(scene, camera);
 
         let trackballControls=new TrackballControls(camera,renderer.domElement);
-        trackballControls.rotateSpeed = 1.0;
+        trackballControls.rotateSpeed = 5.0;
         trackballControls.zoomSpeed = 1.2;
-        trackballControls.panSpeed = 0.8;
+        trackballControls.panSpeed = 3;
+        //trackballControls.noPan=true;
+        //trackballControls.noRotate=true;
 
-        trackballControls.staticMoving = true;
+        //trackballControls.staticMoving = true;
         trackballControls.dynamicDampingFactor = 0.3;
         animate();
         function animate(){

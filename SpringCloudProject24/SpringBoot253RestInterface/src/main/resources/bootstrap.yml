@@ -1,0 +1,22 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:19080/eureka/
+  instance:
+    appname: SpringBoot253RestInterface
+    hostname: 127.0.0.1
+
+spring:
+  application:
+    name: SpringBoot253RestInterface
+  profiles:
+    active: instance1
+#  config:
+#    import: "optional:configserver:http://127.0.0.1:17080"
+  cloud:
+    config:
+#      uri: http://127.0.0.1:17080
+      enabled: true
+      discovery:
+        enabled: true
+        service-id: SpringBoot253CloudConfigServer

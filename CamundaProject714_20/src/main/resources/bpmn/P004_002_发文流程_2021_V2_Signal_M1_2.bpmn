@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_15b9usu" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.3.0">
+  <bpmn:process id="P004_003_M8_2" name="发文流程" isExecutable="true" camunda:versionTag="发文流程V1">
+    <bpmn:sequenceFlow id="SequenceFlow_0mk257b" sourceRef="StartEvent_1" targetRef="Task_1uhc294" />
+    <bpmn:userTask id="Task_1uhc294" name="信号起草" camunda:assignee="siuser01">
+      <bpmn:incoming>SequenceFlow_0mk257b</bpmn:incoming>
+      <bpmn:outgoing>Flow_1erf2gg</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:endEvent id="Event_0l64tkr">
+      <bpmn:incoming>Flow_107vwyb</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1erf2gg" sourceRef="Task_1uhc294" targetRef="Activity_1cruc4e" />
+    <bpmn:sequenceFlow id="Flow_107vwyb" sourceRef="Activity_1cruc4e" targetRef="Event_0l64tkr" />
+    <bpmn:userTask id="Activity_1cruc4e" name="用户节点user1" camunda:assignee="user1">
+      <bpmn:incoming>Flow_1erf2gg</bpmn:incoming>
+      <bpmn:outgoing>Flow_107vwyb</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:startEvent id="StartEvent_1" name="开始节点">
+      <bpmn:documentation>备注</bpmn:documentation>
+      <bpmn:outgoing>SequenceFlow_0mk257b</bpmn:outgoing>
+      <bpmn:signalEventDefinition id="SignalEventDefinition_18q0tcd" signalRef="Signal_1042yhv" />
+    </bpmn:startEvent>
+  </bpmn:process>
+  <bpmn:message id="Message_1o3w9lk" name="Message_Start_Message1_M7_1" />
+  <bpmn:message id="Message_0kahc2u" name="Message_Start_Message1_M7_2" />
+  <bpmn:signal id="Signal_1042yhv" name="Signal_3ibs78r" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="P004_003_M8_2">
+      <bpmndi:BPMNEdge id="Flow_107vwyb_di" bpmnElement="Flow_107vwyb">
+        <di:waypoint x="730" y="120" />
+        <di:waypoint x="822" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1erf2gg_di" bpmnElement="Flow_1erf2gg">
+        <di:waypoint x="420" y="120" />
+        <di:waypoint x="630" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0mk257b_di" bpmnElement="SequenceFlow_0mk257b">
+        <di:waypoint x="215" y="120" />
+        <di:waypoint x="320" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="UserTask_0ngz6if_di" bpmnElement="Task_1uhc294">
+        <dc:Bounds x="320" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0l64tkr_di" bpmnElement="Event_0l64tkr">
+        <dc:Bounds x="822" y="102" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1vczj45_di" bpmnElement="Activity_1cruc4e">
+        <dc:Bounds x="630" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1nqbflo_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="175" y="78" width="43" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

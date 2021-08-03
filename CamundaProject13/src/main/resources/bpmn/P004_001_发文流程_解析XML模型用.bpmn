@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_15b9usu" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.4.1">
-  <bpmn:process id="P004_001" name="发文流程" isExecutable="true" camunda:jobPriority="12123" camunda:candidateStarterGroups="csg" camunda:candidateStarterUsers="csu" camunda:versionTag="发文流程V1" camunda:historyTimeToLive="123" camunda:taskPriority="123">
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:jb4dc="http://jb4dc.org/schema/1.0/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_15b9usu" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.4.1">
+  <bpmn:process id="P004_001" name="发文流程" isExecutable="true" jb4dc:jb4dcCode="Flow_Model_JB4DC_Code_010767129" camunda:jobPriority="12123" camunda:candidateStarterGroups="csg" camunda:candidateStarterUsers="csu" camunda:versionTag="发文流程V1" camunda:historyTimeToLive="123" camunda:taskPriority="123">
     <bpmn:documentation>de1</bpmn:documentation>
     <bpmn:extensionElements>
       <camunda:executionListener class="a" event="start" />

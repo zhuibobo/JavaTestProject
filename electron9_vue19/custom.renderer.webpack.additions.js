@@ -27,8 +27,20 @@ module.exports = function(config) {
         }
         return false;
     })
-    console.log(htmlPlugins);
+    //console.log(htmlPlugins);
     htmlPlugins[0].options.chunks=['renderer'];
+
+    const imgsRule = config.module.rules.filter(rule => {
+        if(rule.use&&rule.use.options){
+            if(rule.use.options.name=="imgs/[name]--[folder].[ext]"){
+                return true;
+            }
+        }
+        return false;
+    })
+    imgsRule[0].use.options.esModule=false;
+
+    console.log(imgsRule);
 
     config.entry.mainComponentWebView="./src/renderer/webview/main-component-webview/mainComponentWebView.js";
     config.plugins.push(
@@ -39,7 +51,20 @@ module.exports = function(config) {
         })
     );
 
-    console.log(JSON.stringify(config, null, 2));
+    /*config.module.rules.push({
+        test: /\.(png|jpg|gif|jpeg)$/,
+        use: [{
+            loader: 'url-loader',
+            // loader: 'file-loader',
+            options: {
+                esModule: false, // 这里设置为false
+                name: '[name].[ext]',
+                limit: 10240
+            }
+        }]
+    });*/
+
+    //console.log(JSON.stringify(config, null, 2));
     return config
 }
 

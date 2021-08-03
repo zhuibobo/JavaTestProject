@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_15b9usu" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.3.0">
+  <bpmn:process id="P004_003_M7_1" name="发文流程" isExecutable="true" camunda:versionTag="发文流程V1">
+    <bpmn:sequenceFlow id="SequenceFlow_0mk257b" sourceRef="StartEvent_1" targetRef="Task_1uhc294" />
+    <bpmn:userTask id="Task_1uhc294" name="起草" camunda:assignee="#{Creater}">
+      <bpmn:incoming>SequenceFlow_0mk257b</bpmn:incoming>
+      <bpmn:outgoing>Flow_1erf2gg</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:startEvent id="StartEvent_1" name="开始节点">
+      <bpmn:documentation>备注</bpmn:documentation>
+      <bpmn:outgoing>SequenceFlow_0mk257b</bpmn:outgoing>
+      <bpmn:outgoing>Flow_0mjol81</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_0hs1uo2" messageRef="Message_1o3w9lk" />
+    </bpmn:startEvent>
+    <bpmn:endEvent id="Event_0l64tkr">
+      <bpmn:incoming>Flow_107vwyb</bpmn:incoming>
+      <bpmn:incoming>Flow_1oxygoi</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1w8whww" sourceRef="Event_041f3kh" targetRef="Activity_1cruc4e" />
+    <bpmn:sequenceFlow id="Flow_1erf2gg" sourceRef="Task_1uhc294" targetRef="Event_041f3kh" />
+    <bpmn:sequenceFlow id="Flow_107vwyb" sourceRef="Activity_1cruc4e" targetRef="Event_0l64tkr" />
+    <bpmn:userTask id="Activity_1cruc4e" name="用户节点user1" camunda:assignee="user1">
+      <bpmn:incoming>Flow_1w8whww</bpmn:incoming>
+      <bpmn:outgoing>Flow_107vwyb</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:intermediateCatchEvent id="Event_0mp057f">
+      <bpmn:incoming>Flow_0mjol81</bpmn:incoming>
+      <bpmn:outgoing>Flow_1svfu38</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_1fiyxuv" messageRef="Message_0kahc2u" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:userTask id="Activity_19fy1m9" name="用户节点user2" camunda:assignee="user2">
+      <bpmn:incoming>Flow_1svfu38</bpmn:incoming>
+      <bpmn:outgoing>Flow_1oxygoi</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_1oxygoi" sourceRef="Activity_19fy1m9" targetRef="Event_0l64tkr" />
+    <bpmn:intermediateThrowEvent id="Event_041f3kh">
+      <bpmn:incoming>Flow_1erf2gg</bpmn:incoming>
+      <bpmn:outgoing>Flow_1w8whww</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_1l53cm7" messageRef="Message_0kahc2u" camunda:class="com.jb4dc.workflow.delegate.SimpleMessageCorrelationDelegate" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:sequenceFlow id="Flow_0mjol81" sourceRef="StartEvent_1" targetRef="Event_0mp057f" />
+    <bpmn:sequenceFlow id="Flow_1svfu38" sourceRef="Event_0mp057f" targetRef="Activity_19fy1m9" />
+  </bpmn:process>
+  <bpmn:message id="Message_1o3w9lk" name="Message_Start_Message1_M7_1" />
+  <bpmn:message id="Message_0kahc2u" name="Message_Start_Message1_M7_2" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="P004_003_M7_1">
+      <bpmndi:BPMNEdge id="Flow_1svfu38_di" bpmnElement="Flow_1svfu38">
+        <di:waypoint x="548" y="270" />
+        <di:waypoint x="630" y="270" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0mjol81_di" bpmnElement="Flow_0mjol81">
+        <di:waypoint x="197" y="138" />
+        <di:waypoint x="197" y="270" />
+        <di:waypoint x="512" y="270" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1oxygoi_di" bpmnElement="Flow_1oxygoi">
+        <di:waypoint x="730" y="270" />
+        <di:waypoint x="776" y="270" />
+        <di:waypoint x="776" y="120" />
+        <di:waypoint x="822" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_107vwyb_di" bpmnElement="Flow_107vwyb">
+        <di:waypoint x="730" y="120" />
+        <di:waypoint x="822" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1erf2gg_di" bpmnElement="Flow_1erf2gg">
+        <di:waypoint x="420" y="120" />
+        <di:waypoint x="512" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1w8whww_di" bpmnElement="Flow_1w8whww">
+        <di:waypoint x="548" y="120" />
+        <di:waypoint x="630" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0mk257b_di" bpmnElement="SequenceFlow_0mk257b">
+        <di:waypoint x="215" y="120" />
+        <di:waypoint x="320" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="UserTask_0ngz6if_di" bpmnElement="Task_1uhc294">
+        <dc:Bounds x="320" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_15544x0_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="175" y="78" width="43" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0l64tkr_di" bpmnElement="Event_0l64tkr">
+        <dc:Bounds x="822" y="102" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1vczj45_di" bpmnElement="Activity_1cruc4e">
+        <dc:Bounds x="630" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_12kduf8_di" bpmnElement="Event_0mp057f">
+        <dc:Bounds x="512" y="252" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_19fy1m9_di" bpmnElement="Activity_19fy1m9">
+        <dc:Bounds x="630" y="230" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1207wdj_di" bpmnElement="Event_041f3kh">
+        <dc:Bounds x="512" y="102" width="36" height="36" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

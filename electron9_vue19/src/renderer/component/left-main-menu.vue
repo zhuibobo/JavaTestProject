@@ -47,10 +47,49 @@
                     <el-menu-item index="threejs-chapter-01-03-materials-light">threejs-chapter-01-03-materials-light</el-menu-item>
                     <el-menu-item index="threejs-chapter-01-04-materials-light-animation">threejs-chapter-01-04-materials-light-animation</el-menu-item>
                     <el-menu-item index="threejs-chapter-01-05-control-gui">threejs-chapter-01-05-control-gui</el-menu-item>
+                </el-submenu>
+                <el-submenu index="threejs-chapter-02">
+                    <span slot="title">threejs-chapter-02</span>
                     <el-menu-item index="threejs-chapter-02-01-basic-scene">threejs-chapter-02-01-basic-scene</el-menu-item>
+                </el-submenu>
+                <el-submenu index="threejs-360-pic">
+                    <span slot="title">threejs-360-pic</span>
+                    <el-menu-item index="threejs-360-pic-01">threejs-360-pic-01</el-menu-item>
+                    <el-menu-item index="threejs-360-pic-02">threejs-360-pic-02</el-menu-item>
                 </el-submenu>
             </el-menu-item-group>
         </el-submenu>
+      <el-submenu index="es6">
+        <template slot="title">
+          <i class="el-icon-bangzhu"></i>
+          <span slot="title">ES6</span>
+        </template>
+        <el-menu-item-group>
+          <span slot="title">ES6</span>
+          <el-submenu index="ES6-Group">
+            <span slot="title">ES6</span>
+            <el-menu-item index="es6-var-init">es6-var-init</el-menu-item>
+            <el-menu-item index="es6-import-d1">es6-import-d1</el-menu-item>
+            <el-menu-item index="es6-promise">es6-promise</el-menu-item>
+            <el-menu-item index="es6-await">es6-await</el-menu-item>
+            <el-menu-item index="es6-symbol">es6-symbol</el-menu-item>
+          </el-submenu>
+        </el-menu-item-group>
+      </el-submenu>
+      <el-submenu index="css3">
+        <template slot="title">
+          <i class="el-icon-bangzhu"></i>
+          <span slot="title">CSS3</span>
+        </template>
+        <el-menu-item-group>
+          <span slot="title">CSS3</span>
+          <el-submenu index="CSS3-Group">
+            <span slot="title">CSS3</span>
+            <el-menu-item index="css3-flex-layout">css3-flex-layout1</el-menu-item>
+            <el-menu-item index="css3-flex-layout2">css3-flex-layout2</el-menu-item>
+          </el-submenu>
+        </el-menu-item-group>
+      </el-submenu>
     </el-menu>
 </template>
 
